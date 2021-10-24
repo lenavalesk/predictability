@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/bin/python",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/Texts_Data/"
+    ]
+}
