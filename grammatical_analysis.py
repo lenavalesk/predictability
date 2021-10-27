@@ -1,6 +1,7 @@
 ### Analisis gramatico de las oraciones que se utilizaron para el experimento de Cloze-Task Oraciones online en 2020 ###
 
 ### Importo los paquetes necesarios
+from numpy import False_, true_divide
 import spacy
 import pandas as pd 
 import re
@@ -17,6 +18,9 @@ oraciones = pd.read_csv(textsFileName, encoding='iso-8859-1',header=None, names=
 oraciones['oracStr'] = [re.sub('/p>', '', x) for x in oraciones['oracStr']]
 oraciones['oracStr'] = [re.sub('p>',  '', x) for x in oraciones['oracStr']]
 oraciones['lenght']  = [len(x.split(' ')) for x in oraciones['oracStr']]
+
+#Tomo solo los cuentos
+oraciones = oraciones[oraciones.oracID<105]
 
 #Le paso los archivos al modelo
 docs = list(nlp.pipe(oraciones.oracStr))
@@ -49,6 +53,11 @@ def tidy_tokens(docs): #Extrae tokens y metadata de una lista de docs de spacy
     return pd.concat(meta_df)    
 
 grammatical_analysis = tidy_tokens(docs)
+grammatical_analysis.reset_index(inplace=True)
+grammatical_analysis.drop(grammatical_analysis[grammatical_analysis['is_punct'] == True].index, inplace=True) #Saco los signos de puntuacion
+
+
+
 grammatical_analysis.to_csv(path_or_buf='Texts_Data/grammatical_analysis.csv')
 
 

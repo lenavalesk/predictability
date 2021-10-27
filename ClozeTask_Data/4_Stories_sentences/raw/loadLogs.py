@@ -8,8 +8,7 @@ import matplotlib
 import scipy  
 from scipy import special
 import matplotlib.pyplot as plt
-
-%pylab
+import seaborn as sns
 
 
 def logit(p,n):
@@ -104,11 +103,26 @@ id_text  = [y for x in id_text for y in x]
 splitted = [y for x in splitted for y in x]
 splitted = list(map(lambda x: re.sub(simbolosElim, '' ,x), splitted))
 
-diccionario = {'id_text':id_text,'palabra':splitted,'palNum':palNum,'palNumGobal':palNumGobal,'palOrac':palOrac}
+#Load los analisis gramaticales
+logGrammatical = '/home/lena/Documents/predictability/predictability/Texts_Data/grammatical_analysis.csv'
+grammatical_analysis = pd.read_csv(logGrammatical, encoding='iso-8859-1')
+print(grammatical_analysis)
+gramm_tag = grammatical_analysis['tag']
+
+diccionario = {'id_text':id_text,'palabra':splitted,'palNum':palNum,'palNumGobal':palNumGobal,'palOrac':palOrac, 'gramm_tag':gramm_tag}
 df1 = pd.DataFrame(diccionario).set_index('palOrac')
 
+
 result = pd.concat([df1, preds, logit_preds, nCompletadas], axis=1)
-result.columns = ['id_text','palabra','palNum','palNumGobal','pred', 'logit_pred', 'nCompletadas']
+result.columns = ['id_text','palabra','palNum','palNumGobal','gramm_tag' ,'pred', 'logit_pred', 'nCompletadas']
 
 result.to_csv('result.csv',index=False)
 
+
+
+#Grafico algunas cosas para ver q onda
+
+groupped = (result.groupby('gramm_tag').agg({'pred': ['mean', 'std']}))
+print(groupped)
+ax = sns.boxplot(x="gramm_tag", y="pred", data=result)
+plt.show()
