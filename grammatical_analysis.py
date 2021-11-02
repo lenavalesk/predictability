@@ -3,6 +3,7 @@
 ### Importo los paquetes necesarios
 from numpy import False_, true_divide
 import spacy
+from spacy_syllables import SpacySyllables
 import pandas as pd 
 import re
 import matplotlib.pyplot as plt
@@ -10,6 +11,8 @@ import matplotlib.pyplot as plt
 
 #Cargo el modelo de nlp
 nlp = spacy.load("es_core_news_sm")
+syllables = SpacySyllables(nlp)
+nlp.add_pipe('syllables')
 
 #Cargo los archivos de los textos
 textsFileName = 'Texts_Data/textos.csv'
@@ -30,7 +33,7 @@ def extract_tokens_plus_meta(doc:spacy.tokens.doc.Doc):  #Extrae tokens y metada
     return [
         (i.text, i.i, i.lemma_, i.ent_type_, i.tag_, 
          i.dep_, i.pos_, i.is_stop, i.is_alpha, 
-         i.is_digit, i.is_punct) for i in doc
+         i.is_digit, i.is_punct, i._.syllables, i._.syllables_count) for i in doc
     ]
 
 def tidy_tokens(docs): #Extrae tokens y metadata de una lista de docs de spacy
@@ -39,7 +42,7 @@ def tidy_tokens(docs): #Extrae tokens y metadata de una lista de docs de spacy
     cols = [
         "doc_id", "token", "token_order", "lemma", 
         "ent_type", "tag", "dep", "pos", "is_stop", 
-        "is_alpha", "is_digit", "is_punct"
+        "is_alpha", "is_digit", "is_punct", "syllables", "syllables_count"
     ]
     
     meta_df = []
@@ -56,7 +59,7 @@ grammatical_analysis = tidy_tokens(docs)
 grammatical_analysis.reset_index(inplace=True)
 grammatical_analysis.drop(grammatical_analysis[grammatical_analysis['is_punct'] == True].index, inplace=True) #Saco los signos de puntuacion
 
-
+print(grammatical_analysis)
 
 grammatical_analysis.to_csv(path_or_buf='Texts_Data/grammatical_analysis.csv')
 
@@ -67,3 +70,10 @@ grammatical_analysis.to_csv(path_or_buf='Texts_Data/grammatical_analysis.csv')
 # plt.xticks(fontsize=20)
 
 # print(tidy_docs.query("ent_type != ''").ent_type.value_counts())
+
+
+
+
+
+
+
