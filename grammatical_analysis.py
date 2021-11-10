@@ -1,6 +1,7 @@
 ### Analisis gramatico de las oraciones que se utilizaron para el experimento de Cloze-Task Oraciones online en 2020 ###
 
 ### Importo los paquetes necesarios
+from os import get_terminal_size
 from numpy import False_, true_divide
 import spacy
 from spacy_syllables import SpacySyllables
@@ -58,8 +59,9 @@ def tidy_tokens(docs): #Extrae tokens y metadata de una lista de docs de spacy
 grammatical_analysis = tidy_tokens(docs)
 grammatical_analysis.reset_index(inplace=True)
 grammatical_analysis.drop(grammatical_analysis[grammatical_analysis['is_punct'] == True].index, inplace=True) #Saco los signos de puntuacion
+grammatical_analysis['token'] = grammatical_analysis['token'].str.lower()
 
-print(grammatical_analysis)
+
 
 grammatical_analysis.to_csv(path_or_buf='Texts_Data/grammatical_analysis.csv')
 
@@ -73,7 +75,23 @@ grammatical_analysis.to_csv(path_or_buf='Texts_Data/grammatical_analysis.csv')
 
 
 
+### Analisis de las frecuencias ###
+
+path_acum = 'corpus_lexesp/acum.csv'
+path_usos = 'corpus_lexesp/usos.csv'
 
 
+columnas_usos = ['categoria','lema','frec','palabra']
+usos = pd.read_csv(path_usos,encoding='UTF-8',header=None, names=columnas_usos)
 
+columnas_acum = ['token','frec','ncategorias']
+acum = pd.read_csv(path_acum, encoding='UTF-8',header=None, names=columnas_acum)
 
+# df_concat = pd.concat([grammatical_analysis, acum]).reset_index().drop_duplicates(['token'])
+# df_concat.set_index('token', inplace=True)
+# # df_concat[df_concat.index.isin(df.index)]
+# print(acum[90000:90050])
+
+merged = pd.merge(grammatical_analysis, acum, on='token')
+print(merged)
+print(grammatical_analysis)
