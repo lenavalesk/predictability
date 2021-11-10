@@ -27,7 +27,7 @@ def logit(p,n):
 	return logitpred
 
 # Load
-logFileName = 'log.csv'
+logFileName = 'ClozeTask_Data/4_Stories_sentences/raw/log.csv'
 columnas = ['dbID', 'sujID', 'mail', 'seqID', 'oracID', 'null', 'type', 'tStart', 'completada', 'original', 'tEnd', 'palNum', 'age']
 log = pd.read_csv(logFileName, encoding='iso-8859-1',header=None, names=columnas, quotechar="'")
 log.palNum = log.palNum+1
@@ -68,7 +68,7 @@ grouppedSuj = log.groupby('mail')
 # print(grouppedSuj.count().iguales)
 
 
-oracFileName = 'textos.csv'
+oracFileName = 'ClozeTask_Data/4_Stories_sentences/raw/textos.csv'
 columnas = ['oracID', 'type', 'null', 'oracStr']
 oraciones = pd.read_csv(oracFileName, encoding='iso-8859-1',header=None, names=columnas,quotechar="<")
 oraciones['oracStr'] = [re.sub('/p>', '', x) for x in oraciones['oracStr']]
@@ -79,7 +79,7 @@ oraciones = oraciones[oraciones.oracID<105]
 
 
 #Modifico textos para que tenga el numero de cuento igual que en contexto y el id de posicion de palabra en cuento
-modiFileName = 'modificaciones.csv'
+modiFileName = 'ClozeTask_Data/4_Stories_sentences/raw/modificaciones.csv'
 columns = ['palNumSt','st']
 modificaciones = pd.read_csv(modiFileName,encoding='iso-8859-1',header=None, names=columns)
 
@@ -104,7 +104,7 @@ splitted = [y for x in splitted for y in x]
 splitted = list(map(lambda x: re.sub(simbolosElim, '' ,x), splitted))
 
 #Load los analisis gramaticales
-logGrammatical = '/home/lena/Documents/predictability/predictability/Texts_Data/grammatical_analysis.csv'
+logGrammatical = 'Texts_Data/grammatical_analysis.csv'
 grammatical_analysis = pd.read_csv(logGrammatical, encoding='iso-8859-1')
 print(grammatical_analysis)
 gramm_tag = grammatical_analysis['tag']
@@ -118,11 +118,11 @@ result.columns = ['id_text','palabra','palNum','palNumGobal','gramm_tag' ,'pred'
 
 result.to_csv('result.csv',index=False)
 
+print(result)
 
+# #Grafico algunas cosas para ver q onda
 
-#Grafico algunas cosas para ver q onda
-
-groupped = (result.groupby('gramm_tag').agg({'pred': ['mean', 'std']}))
-print(groupped)
-ax = sns.boxplot(x="gramm_tag", y="pred", data=result)
-plt.show()
+# groupped = (result.groupby('gramm_tag').agg({'pred': ['mean', 'std']}))
+# print(groupped)
+# ax = sns.boxplot(x="gramm_tag", y="pred", data=result)
+# plt.show()
