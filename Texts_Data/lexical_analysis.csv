@@ -1,0 +1,1324 @@
+,index,doc_id,token,token_order,lemma,ent_type,tag,dep,pos,is_stop,is_alpha,is_digit,is_punct,syllables,syllables_count,frec,ncategorias
+0,0,0,sólo,0,sólo,PER,ADV,advmod,ADV,True,True,False,False,"['só', 'lo']",2.0,7174,3
+1,1,0,recuerdo,1,recordar,,VERB,ROOT,VERB,False,True,False,False,"['re', 'cuer', 'do']",3.0,896,5
+2,2,0,esto,2,este,,PRON,obj,PRON,True,True,False,False,"['es', 'to']",2.0,2276,2
+3,3,0,como,3,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+4,4,0,prueba,4,prueba,,NOUN,obj,NOUN,False,True,False,False,"['prue', 'ba']",2.0,578,3
+5,5,0,de,5,de,,ADP,mark,ADP,True,True,False,False,['de'],1.0,264834,4
+6,6,0,que,6,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+7,7,0,él,7,él,,PRON,nsubj,PRON,True,True,False,False,['él'],1.0,5809,2
+8,8,0,anotaba,8,anotar,,VERB,acl,VERB,False,True,False,False,"['ano', 'ta', 'ba']",3.0,4,1
+9,9,0,mis,9,mi,,DET,det,DET,True,True,False,False,['mis'],1.0,2256,3
+10,10,0,comedias,10,comedia,,NOUN,obj,NOUN,False,True,False,False,"['co', 'me', 'dias']",3.0,33,3
+11,11,0,en,11,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+12,12,0,la,12,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+13,13,0,cantina,13,cantina,,NOUN,obl,NOUN,False,True,False,False,"['canti', 'na']",2.0,28,1
+14,0,1,tenía,0,tener,MISC,VERB,ROOT,VERB,True,True,False,False,"['te', 'nía']",2.0,3138,3
+15,1,1,un,1,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+16,2,1,impermeable,2,impermeable,,ADJ,amod,ADJ,False,True,False,False,"['im', 'per', 'mea', 'ble']",4.0,20,2
+17,3,1,cerrado,3,cerrado,,ADJ,obj,ADJ,False,True,False,False,"['ce', 'rra', 'do']",3.0,192,4
+18,4,1,hasta,4,hasta,,ADP,case,ADP,True,True,False,False,"['has', 'ta']",2.0,6437,3
+19,5,1,el,5,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+20,6,1,cuello,6,cuello,,NOUN,nmod,NOUN,False,True,False,False,"['cue', 'llo']",2.0,411,1
+21,8,1,las,8,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+22,9,1,manos,9,mano,,NOUN,obj,NOUN,False,True,False,False,"['ma', 'nos']",2.0,1591,3
+23,10,1,en,10,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+24,11,1,los,11,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+25,12,1,bolsillos,12,bolsillo,,NOUN,nmod,NOUN,False,True,False,False,"['bol', 'si', 'llos']",3.0,74,1
+26,0,2,mi,0,mi,MISC,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+27,1,2,amor,1,amor,MISC,NOUN,nsubj,NOUN,False,True,False,False,['amor'],1.0,1498,2
+28,2,2,por,2,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+29,3,2,aquella,3,aquel,,DET,det,DET,True,True,False,False,"['aque', 'lla']",2.0,2157,5
+30,4,2,necesidad,4,necesidad,,NOUN,obl,NOUN,False,True,False,False,"['ne', 'ce', 'si', 'dad']",4.0,590,2
+31,5,2,había,5,haber,PER,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+32,6,2,suprimido,6,suprimir,,VERB,ROOT,VERB,False,True,False,False,"['su', 'pri', 'mi', 'do']",4.0,8,1
+33,7,2,el,7,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+34,8,2,pasado,8,pasado,,NOUN,obj,NOUN,True,True,False,False,"['pa', 'sa', 'do']",3.0,1805,5
+35,9,2,y,9,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+36,10,2,toda,10,todo,,DET,det,DET,True,True,False,False,"['to', 'da']",2.0,2670,4
+37,11,2,atadura,11,atadura,,NOUN,conj,NOUN,False,True,False,False,"['ata', 'du', 'ra']",3.0,1,1
+38,12,2,con,12,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+39,13,2,el,13,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+40,14,2,presente,14,presente,,NOUN,nmod,NOUN,False,True,False,False,"['pre', 'sen', 'te']",3.0,467,4
+41,0,3,enderezó,0,enderezar,ORG,VERB,ROOT,VERB,False,True,False,False,"['en', 'de', 're', 'zó']",4.0,13,1
+42,1,3,la,1,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+43,2,3,cabeza,2,cabeza,,NOUN,obj,NOUN,False,True,False,False,"['ca', 'be', 'za']",3.0,1978,3
+44,3,3,y,3,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+45,4,3,continuó,4,continuar,,VERB,conj,VERB,False,True,False,False,"['con', 'ti', 'nuó']",3.0,137,1
+46,5,3,mirándome,5,mirándomar,,VERB,advcl,VERB,False,True,False,False,"['mi', 'rán', 'do', 'me']",4.0,40,1
+47,6,3,en,6,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+48,7,3,silencio,7,silencio,,NOUN,obl,NOUN,False,True,False,False,"['si', 'len', 'cio']",3.0,940,4
+49,0,4,usted,0,usted,PER,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+50,1,4,no,1,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+51,2,4,se,2,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+52,3,4,va,3,ir,,AUX,aux,AUX,True,True,False,False,['va'],1.0,2323,2
+53,4,4,a,4,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+54,5,4,casar,5,casar,,VERB,ROOT,VERB,False,True,False,False,"['ca', 'sar']",2.0,38,2
+55,6,4,con,6,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+56,7,4,ella,7,él,,PRON,obj,PRON,True,True,False,False,['ella'],1.0,5496,3
+57,8,4,porque,8,porque,,SCONJ,mark,SCONJ,True,True,False,False,"['por', 'que']",2.0,7519,3
+58,9,4,usted,9,usted,,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+59,10,4,es,10,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+60,11,4,viejo,11,viejo,,ADJ,advcl,ADJ,False,True,False,False,"['vie', 'jo']",2.0,938,3
+61,12,4,y,12,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+62,13,4,ella,13,él,,PRON,nsubj,PRON,True,True,False,False,['ella'],1.0,5496,3
+63,14,4,es,14,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+64,15,4,joven,15,joven,,ADJ,conj,ADJ,False,True,False,False,"['jo', 'ven']",2.0,1130,4
+65,0,5,no,0,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+66,1,5,sé,1,saber,,VERB,ROOT,VERB,True,True,False,False,['sé'],1.0,1625,2
+67,2,5,si,2,si,,SCONJ,mark,SCONJ,True,True,False,False,['si'],1.0,10060,3
+68,3,5,usted,3,usted,,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+69,4,5,tiene,4,tener,,VERB,ccomp,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+70,5,5,treinta,5,treinta,,NUM,obj,NUM,False,True,False,False,"['trein', 'ta']",2.0,477,2
+71,6,5,o,6,o,,CCONJ,cc,CCONJ,False,True,False,False,['o'],1.0,18470,3
+72,7,5,cuarenta,7,cuarenta,,NUM,nummod,NUM,False,True,False,False,"['cua', 'ren', 'ta']",3.0,349,3
+73,8,5,años,8,año,,NOUN,conj,NOUN,False,True,False,False,['años'],1.0,6583,3
+74,10,5,no,10,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+75,11,5,importa,11,importar,,VERB,ccomp,VERB,False,True,False,False,"['im', 'por', 'ta']",3.0,380,2
+76,0,6,claro,0,claro,,ADV,advmod,ADV,True,True,False,False,"['cla', 'ro']",2.0,1500,5
+77,1,6,que,1,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+78,2,6,usted,2,usted,,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+79,3,6,tiene,3,tener,,VERB,ROOT,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+80,4,6,motivos,4,motivo,,NOUN,obj,NOUN,False,True,False,False,"['mo', 'ti', 'vos']",3.0,273,2
+81,5,6,para,5,para,,ADP,mark,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+82,6,6,creer,6,creer,,VERB,acl,VERB,False,True,False,False,['creer'],1.0,351,1
+83,7,6,en,7,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+84,8,6,lo,8,él,,PRON,det,PRON,True,True,False,False,['lo'],1.0,31492,6
+85,9,6,extraordinario,9,extraordinario,,ADJ,obj,ADJ,False,True,False,False,"['ex', 'tra', 'or', 'di', 'na', 'rio']",6.0,131,3
+86,10,6,suyo,10,suyo,,DET,det,DET,True,True,False,False,"['su', 'yo']",2.0,506,2
+87,0,7,está,0,estar,PER,AUX,cop,AUX,True,True,False,False,"['es', 'tá']",2.0,6105,4
+88,1,7,atado,1,atado,,ADJ,ROOT,ADJ,False,True,False,False,"['ata', 'do']",2.0,50,3
+89,2,7,a,2,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+90,3,7,cosas,3,cosa,,NOUN,obj,NOUN,True,True,False,False,"['co', 'sas']",2.0,2741,3
+91,4,7,miserables,4,miserable,,ADJ,amod,ADJ,False,True,False,False,"['mi', 'se', 'ra', 'bles']",4.0,43,1
+92,5,7,y,5,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+93,6,7,son,6,ser,,AUX,cop,AUX,True,True,False,False,['son'],1.0,7473,5
+94,7,7,las,7,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+95,8,7,cosas,8,cosa,,NOUN,conj,NOUN,True,True,False,False,"['co', 'sas']",2.0,2741,3
+96,9,7,las,9,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+97,10,7,que,10,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+98,11,7,lo,11,él,,PRON,obj,PRON,True,True,False,False,['lo'],1.0,31492,6
+99,12,7,arrastran,12,arrastrar,,VERB,csubj,VERB,False,True,False,False,"['arras', 'tran']",2.0,29,1
+100,0,8,la,0,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+101,1,8,música,1,música,,NOUN,nsubj,NOUN,False,True,False,False,"['mú', 'si', 'ca']",3.0,596,3
+102,2,8,era,2,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+103,3,8,poco,3,poco,,ADV,advmod,ADV,True,True,False,False,"['po', 'co']",2.0,3249,4
+104,4,8,fuerte,4,fuerte,,ADJ,ROOT,ADJ,False,True,False,False,"['fuer', 'te']",2.0,708,4
+105,6,8,alguien,6,alguien,,PRON,nsubj,PRON,False,True,False,False,"['al', 'guien']",2.0,1235,3
+106,7,8,cantaba,7,cantar,,VERB,advcl,VERB,False,True,False,False,"['can', 'ta', 'ba']",3.0,72,1
+107,8,8,dulcemente,8,dulcemente,,ADV,advmod,ADV,False,True,False,False,"['dul', 'ce', 'men', 'te']",4.0,29,1
+108,9,8,en,9,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+109,10,8,el,10,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+110,11,8,interior,11,interior,,NOUN,obl,NOUN,False,True,False,False,"['in', 'te', 'rior']",3.0,1011,3
+111,12,8,de,12,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+112,13,8,grandes,13,grande,,ADJ,amod,ADJ,True,True,False,False,"['gran', 'des']",2.0,1655,4
+113,14,8,pausas,14,pausa,,NOUN,nmod,NOUN,False,True,False,False,"['pau', 'sas']",2.0,18,3
+114,0,9,no,0,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+115,1,9,había,1,haber,,AUX,ROOT,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+116,2,9,ya,2,ya,,ADV,advmod,ADV,True,True,False,False,['ya'],1.0,9906,3
+117,3,9,experiencias,3,experiencia,,NOUN,obj,NOUN,False,True,False,False,"['ex', 'pe', 'rien', 'cias']",4.0,228,1
+118,5,9,nada,5,nada,,NOUN,advmod,NOUN,True,True,False,False,"['na', 'da']",2.0,3806,6
+119,6,9,más,6,más,,ADV,fixed,ADV,True,True,False,False,['más'],1.0,20040,4
+120,7,9,que,7,que,,SCONJ,fixed,SCONJ,True,True,False,False,['que'],1.0,153240,5
+121,8,9,costumbre,8,costumbre,,NOUN,fixed,NOUN,False,True,False,False,"['cos', 'tum', 'bre']",3.0,238,1
+122,9,9,y,9,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+123,10,9,repeticiones,10,repetición,,NOUN,conj,NOUN,False,True,False,False,"['re', 'pe', 'ti', 'cio', 'nes']",5.0,22,1
+124,0,10,ausente,0,ausente,,ADV,advmod,ADV,False,True,False,False,"['au', 'sen', 'te']",3.0,99,4
+125,1,10,y,1,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+126,2,10,perdida,2,perdido,,ADJ,conj,ADJ,False,True,False,False,"['per', 'di', 'da']",3.0,185,2
+127,3,10,para,3,para,,ADP,case,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+128,4,10,siempre,4,siempre,,ADV,advmod,ADV,True,True,False,False,"['siem', 'pre']",2.0,4841,3
+129,6,10,podía,6,poder,,AUX,aux,AUX,False,True,False,False,"['po', 'día']",2.0,1956,2
+130,7,10,conservarse,7,conservar él,,VERB,ROOT,VERB,False,True,False,False,"['con', 'ser', 'var', 'se']",4.0,5,1
+131,8,10,viviente,8,viviente,,ADV,advmod,ADV,False,True,False,False,"['vi', 'vien', 'te']",3.0,39,1
+132,9,10,e,9,e,,CCONJ,cc,CCONJ,False,True,False,False,['e'],1.0,3300,3
+133,10,10,intacta,10,intacto,,ADJ,conj,ADJ,False,True,False,False,"['in', 'tac', 'ta']",3.0,40,2
+134,0,11,todo,0,todo,,DET,det,DET,True,True,False,False,"['to', 'do']",2.0,7722,5
+135,1,11,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+136,2,11,tiempo,2,tiempo,,NOUN,nsubj,NOUN,True,True,False,False,"['tiem', 'po']",2.0,4167,3
+137,3,11,pensando,3,pensar,,VERB,ROOT,VERB,False,True,False,False,"['pen', 'san', 'do']",3.0,339,2
+138,4,11,en,4,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+139,5,11,bob,5,Bob,PER,PROPN,obj,PROPN,False,True,False,False,['bob'],1.0,7,1
+140,7,11,en,7,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+141,8,11,su,8,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+142,9,11,pureza,9,pureza,,NOUN,obl,NOUN,False,True,False,False,"['pu', 're', 'za']",3.0,57,2
+143,11,11,su,11,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+144,12,11,fe,12,fe,,NOUN,appos,NOUN,False,True,False,False,['fe'],1.0,311,2
+145,14,11,en,14,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+146,15,11,la,15,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+147,16,11,audacia,16,audacia,,NOUN,obl,NOUN,False,True,False,False,"['au', 'da', 'cia']",3.0,48,1
+148,17,11,de,17,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+149,18,11,sus,18,su,,DET,det,DET,True,True,False,False,['sus'],1.0,16997,3
+150,19,11,pasados,19,pasado,,ADJ,amod,ADJ,False,True,False,False,"['pa', 'sa', 'dos']",3.0,103,3
+151,20,11,sueños,20,sueño,,NOUN,nmod,NOUN,False,True,False,False,"['sue', 'ños']",2.0,283,2
+152,0,12,nadie,0,nadie,,PRON,nsubj,PRON,True,True,False,False,"['na', 'die']",2.0,2471,3
+153,1,12,amó,1,amar,,VERB,ROOT,VERB,False,True,False,False,['amó'],1.0,14,1
+154,2,12,a,2,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+155,3,12,mujer,3,mujer,,NOUN,iobj,NOUN,False,True,False,False,"['mu', 'jer']",2.0,2765,3
+156,4,12,alguna,4,alguno,,DET,obj,DET,True,True,False,False,"['al', 'gu', 'na']",3.0,1497,4
+157,5,12,con,5,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+158,6,12,la,6,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+159,7,12,fuerza,7,fuerza,,NOUN,obl,NOUN,False,True,False,False,"['fuer', 'za']",2.0,939,4
+160,8,12,con,8,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+161,9,12,que,9,que,,PRON,obl,PRON,True,True,False,False,['que'],1.0,153240,5
+162,10,12,yo,10,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+163,11,12,amo,11,amar,,VERB,advcl,VERB,False,True,False,False,['amo'],1.0,123,3
+164,12,12,su,12,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+165,13,12,ruindad,13,ruindad,,NOUN,obj,NOUN,False,True,False,False,"['ruin', 'dad']",2.0,8,1
+166,0,13,es,0,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+167,1,13,todavía,1,todavía,,ADV,advmod,ADV,True,True,False,False,"['to', 'da', 'vía']",3.0,1974,3
+168,2,13,un,2,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+169,3,13,recién,3,recién,,ADV,advmod,ADV,False,True,False,False,"['re', 'cién']",2.0,468,2
+170,4,13,llegado,4,llegado,,ADJ,ROOT,ADJ,False,True,False,False,"['lle', 'ga', 'do']",3.0,860,2
+171,5,13,y,5,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+172,6,13,de,6,de,,ADP,advmod,ADP,True,True,False,False,['de'],1.0,264834,4
+173,7,13,vez,7,vez,,NOUN,fixed,NOUN,True,True,False,False,['vez'],1.0,4171,2
+174,8,13,en,8,en,,ADP,fixed,ADP,True,True,False,False,['en'],1.0,116349,3
+175,9,13,cuando,9,cuando,,PRON,fixed,PRON,True,True,False,False,"['cuan', 'do']",2.0,10076,5
+176,10,13,sufre,10,sufrir,,VERB,conj,VERB,False,True,False,False,"['su', 'fre']",2.0,149,2
+177,11,13,sus,11,su,,DET,det,DET,True,True,False,False,['sus'],1.0,16997,3
+178,12,13,crisis,12,crisis,,NOUN,nsubj,NOUN,False,True,False,False,"['cri', 'sis']",2.0,768,2
+179,13,13,de,13,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+180,14,13,nostalgia,14,nostalgia,,NOUN,nmod,NOUN,False,True,False,False,"['nos', 'tal', 'gia']",3.0,153,1
+181,0,14,en,0,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+182,1,14,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+183,2,14,fondo,2,fondo,,NOUN,obl,NOUN,False,True,False,False,"['fon', 'do']",2.0,1011,2
+184,3,14,sé,3,saber,,VERB,ROOT,VERB,True,True,False,False,['sé'],1.0,1625,2
+185,4,14,que,4,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+186,5,14,no,5,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+187,6,14,se,6,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+188,7,14,irá,7,ir,,VERB,ccomp,VERB,False,True,False,False,['irá'],1.0,86,1
+189,8,14,nunca,8,nunca,,ADV,advmod,ADV,True,True,False,False,"['nun', 'ca']",2.0,3230,3
+190,9,14,porque,9,porque,,SCONJ,mark,SCONJ,True,True,False,False,"['por', 'que']",2.0,7519,3
+191,10,14,no,10,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+192,11,14,tiene,11,tener,,VERB,advcl,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+193,12,14,sitio,12,sitio,,NOUN,obj,NOUN,False,True,False,False,"['si', 'tio']",2.0,518,4
+194,13,14,donde,13,donde,,PRON,obl,PRON,True,True,False,False,"['don', 'de']",2.0,4148,5
+195,14,14,ir,14,ir,,VERB,acl,VERB,True,True,False,False,['ir'],1.0,1068,3
+196,0,15,dejé,0,dejar,,VERB,ROOT,VERB,False,True,False,False,"['de', 'jé']",2.0,103,2
+197,1,15,mi,1,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+198,2,15,bicicleta,2,bicicleta,,NOUN,obj,NOUN,False,True,False,False,"['bi', 'ci', 'cle', 'ta']",4.0,67,2
+199,3,15,contra,3,contra,,ADP,case,ADP,True,True,False,False,['contra'],1.0,2925,4
+200,4,15,las,4,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+201,5,15,rejas,5,reja,,NOUN,obl,NOUN,False,True,False,False,"['re', 'jas']",2.0,23,1
+202,6,15,y,6,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+203,7,15,fui,7,ir,,AUX,aux,AUX,True,True,False,False,['fui'],1.0,381,3
+204,8,15,a,8,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+205,9,15,ver,9,ver,,VERB,conj,VERB,True,True,False,False,['ver'],1.0,2543,4
+206,10,15,los,10,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+207,11,15,tulipanes,11,tulipán,,NOUN,obj,NOUN,False,True,False,False,"['tu', 'li', 'pa', 'nes']",4.0,9,2
+208,0,16,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+209,1,16,quedé,1,quedar,,VERB,ROOT,VERB,False,True,False,False,"['que', 'dé']",2.0,109,1
+210,2,16,una,2,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+211,3,16,hora,3,hora,,NOUN,obl,NOUN,False,True,False,False,"['ho', 'ra']",2.0,1216,3
+212,4,16,mirándolos,4,mirándolo,,NOUN,nsubj,NOUN,False,True,False,False,"['mi', 'rán', 'do', 'los']",4.0,3,1
+213,6,16,y,6,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+214,7,16,salí,7,salir,,VERB,conj,VERB,False,True,False,False,['salí'],1.0,98,1
+215,8,16,incapaz,8,incapaz,,ADJ,obj,ADJ,False,True,False,False,"['in', 'ca', 'paz']",3.0,213,1
+216,9,16,de,9,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+217,10,16,otra,10,otro,,DET,det,DET,True,True,False,False,['otra'],1.0,3876,4
+218,11,16,cosa,11,cosa,,NOUN,nmod,NOUN,False,True,False,False,"['co', 'sa']",2.0,1902,4
+219,0,17,el,0,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+220,1,17,guardián,1,guardián,,PROPN,nsubj,PROPN,False,True,False,False,"['guar', 'dián']",2.0,36,1
+221,2,17,de,2,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+222,3,17,los,3,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+223,4,17,acuarios,4,acuario,,NOUN,nmod,NOUN,False,True,False,False,"['acua', 'rios']",2.0,,
+224,5,17,sonreía,5,sonreir,,VERB,ROOT,VERB,False,True,False,False,"['son', 'reía']",2.0,119,1
+225,6,17,perplejo,6,perplejo,,NOUN,obj,NOUN,False,True,False,False,"['per', 'ple', 'jo']",3.0,38,1
+226,7,17,al,7,al,,ADP,mark,ADP,True,True,False,False,['al'],1.0,24980,3
+227,8,17,recibir,8,recibir,,VERB,advcl,VERB,False,True,False,False,"['re', 'ci', 'bir']",3.0,288,1
+228,9,17,el,9,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+229,10,17,billete,10,billete,,NOUN,obj,NOUN,False,True,False,False,"['bi', 'lle', 'te']",3.0,45,1
+230,0,18,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+231,1,18,apoyaba,1,apoyar,,VERB,ROOT,VERB,False,True,False,False,"['apo', 'ya', 'ba']",3.0,30,2
+232,2,18,en,2,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+233,3,18,la,3,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+234,4,18,barra,4,barra,,NOUN,obl,NOUN,False,True,False,False,"['ba', 'rra']",2.0,166,4
+235,5,18,de,5,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+236,6,18,hierro,6,hierro,,NOUN,nmod,NOUN,False,True,False,False,"['hie', 'rro']",2.0,113,3
+237,7,18,que,7,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+238,8,18,bordea,8,bordear,,VERB,acl,VERB,False,True,False,False,"['bor', 'dea']",2.0,12,2
+239,9,18,los,9,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+240,10,18,acuarios,10,acuario,,NOUN,obj,NOUN,False,True,False,False,"['acua', 'rios']",2.0,,
+241,11,18,y,11,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+242,12,18,me,12,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+243,13,18,ponía,13,poner,,VERB,conj,VERB,False,True,False,False,"['po', 'nía']",2.0,278,1
+244,14,18,a,14,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+245,15,18,mirarlos,15,mirarlo,,NOUN,obj,NOUN,False,True,False,False,"['mi', 'rar', 'los']",3.0,14,1
+246,0,19,pero,0,pero,,CCONJ,advmod,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+247,1,19,una,1,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+248,2,19,lagartija,2,lagartija,,NOUN,nsubj,NOUN,False,True,False,False,"['la', 'gar', 'ti', 'ja']",4.0,3,2
+249,3,19,tiene,3,tener,,VERB,ROOT,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+250,4,19,también,4,también,,ADV,advmod,ADV,True,True,False,False,"['tam', 'bién']",2.0,7087,3
+251,5,19,manos,5,mano,,NOUN,obj,NOUN,False,True,False,False,"['ma', 'nos']",2.0,1591,3
+252,6,19,así,6,así,,ADV,advmod,ADV,True,True,False,False,['así'],1.0,4273,3
+253,8,19,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+254,9,19,en,9,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+255,10,19,nada,10,nada,,NOUN,obl,NOUN,True,True,False,False,"['na', 'da']",2.0,3806,6
+256,11,19,se,11,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+257,12,19,nos,12,yo,,PRON,obj,PRON,True,True,False,False,['nos'],1.0,6511,3
+258,13,19,parece,13,parecer,,VERB,conj,VERB,True,True,False,False,"['pa', 're', 'ce']",3.0,2427,5
+259,0,20,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+260,1,20,sorprendía,1,sorprender,,VERB,ROOT,VERB,False,True,False,False,"['sor', 'pren', 'día']",3.0,19,1
+261,2,20,musitando,2,musitar,,VERB,advcl,VERB,False,True,False,False,"['mu', 'si', 'tan', 'do']",4.0,3,1
+262,3,20,palabras,3,palabra,,NOUN,obj,NOUN,False,True,False,False,"['pa', 'la', 'bras']",3.0,1433,3
+263,4,20,de,4,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+264,5,20,consuelo,5,consuelo,,NOUN,nmod,NOUN,False,True,False,False,"['con', 'sue', 'lo']",3.0,128,3
+265,7,20,transmitiendo,7,transmitir,,VERB,advcl,VERB,False,True,False,False,"['trans', 'mi', 'tien', 'do']",4.0,10,1
+266,8,20,pueriles,8,pueril,,ADJ,obj,ADJ,False,True,False,False,"['pue', 'ri', 'les']",3.0,4,1
+267,9,20,esperanzas,9,esperanzas,,PROPN,amod,PROPN,False,True,False,False,"['es', 'pe', 'ran', 'zas']",4.0,128,3
+268,0,21,los,0,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+269,1,21,axolotl,1,axolotl,,NOUN,nsubj,NOUN,False,True,False,False,"['axo', 'lo', 'tl']",3.0,,
+270,2,21,eran,2,ser,,AUX,cop,AUX,True,True,False,False,['eran'],1.0,2219,4
+271,3,21,como,3,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+272,4,21,testigos,4,testigo,,NOUN,ROOT,NOUN,False,True,False,False,"['tes', 'ti', 'gos']",3.0,114,3
+273,5,21,de,5,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+274,6,21,algo,6,algo,,PRON,nmod,PRON,True,True,False,False,"['al', 'go']",2.0,4157,3
+275,8,21,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+276,9,21,a,9,a,,ADP,conj,ADP,False,True,False,False,['a'],1.0,91360,3
+277,10,21,veces,10,veces,,NOUN,fixed,NOUN,True,True,False,False,"['ve', 'ces']",2.0,1614,3
+278,11,21,como,11,como,,SCONJ,fixed,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+279,12,21,horribles,12,horribl,,NOUN,parataxis,NOUN,False,True,False,False,"['ho', 'rri', 'bles']",3.0,28,1
+280,13,21,jueces,13,juez,,ADJ,amod,ADJ,False,True,False,False,"['jue', 'ces']",2.0,147,2
+281,0,22,eran,0,ser,,AUX,cop,AUX,True,True,False,False,['eran'],1.0,2219,4
+282,1,22,larvas,1,larva,,ADJ,ROOT,ADJ,False,True,False,False,"['lar', 'vas']",2.0,17,1
+283,3,22,pero,3,pero,,CCONJ,cc,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+284,4,22,larva,4,larva,,NOUN,nsubj,NOUN,False,True,False,False,"['lar', 'va']",2.0,13,1
+285,5,22,quiere,5,querer,,VERB,conj,VERB,True,True,False,False,"['quie', 're']",2.0,1232,3
+286,6,22,decir,6,decir,,NOUN,xcomp,NOUN,True,True,False,False,"['de', 'cir']",2.0,2120,3
+287,7,22,máscara,7,máscara,,PROPN,obj,PROPN,False,True,False,False,"['más', 'ca', 'ra']",3.0,69,1
+288,8,22,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+289,9,22,también,9,también,,ADV,advmod,ADV,True,True,False,False,"['tam', 'bién']",2.0,7087,3
+290,10,22,fantasma,10,fantasma,,ADJ,conj,ADJ,False,True,False,False,"['fan', 'tas', 'ma']",3.0,101,3
+291,0,23,lejos,0,lejos,,ADV,case,ADV,True,True,False,False,"['le', 'jos']",2.0,437,2
+292,1,23,del,1,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+293,2,23,acuario,2,acuario,,NOUN,nsubj,NOUN,False,True,False,False,"['acua', 'rio']",2.0,9,2
+294,3,23,no,3,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+295,4,23,hacía,4,hacer,,VERB,ROOT,VERB,False,True,False,False,"['ha', 'cía']",2.0,1319,2
+296,5,23,más,5,más,,ADV,advmod,ADV,True,True,False,False,['más'],1.0,20040,4
+297,6,23,que,6,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+298,7,23,pensar,7,pensar,,VERB,xcomp,VERB,False,True,False,False,"['pen', 'sar']",2.0,846,2
+299,8,23,en,8,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+300,9,23,ellos,9,él,,PRON,obj,PRON,True,True,False,False,['ellos'],1.0,3177,3
+301,11,23,era,11,ser,,AUX,advcl,AUX,True,True,False,False,['era'],1.0,11342,6
+302,12,23,como,12,como,,ADP,mark,ADP,True,True,False,False,"['co', 'mo']",2.0,24440,5
+303,13,23,si,13,si,,SCONJ,mark,SCONJ,True,True,False,False,['si'],1.0,10060,3
+304,14,23,me,14,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+305,15,23,influyeran,15,influir,,VERB,ccomp,VERB,False,True,False,False,"['in', 'flu', 'ye', 'ran']",4.0,,
+306,16,23,a,16,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+307,17,23,distancia,17,distancia,,NOUN,obl,NOUN,False,True,False,False,"['dis', 'tan', 'cia']",3.0,396,4
+308,0,24,acaso,0,acaso,,ADV,advmod,ADV,False,True,False,False,"['aca', 'so']",2.0,498,3
+309,1,24,sus,1,su,,DET,det,DET,True,True,False,False,['sus'],1.0,16997,3
+310,2,24,ojos,2,ojo,,NOUN,nsubj,NOUN,False,True,False,False,['ojos'],1.0,2718,2
+311,3,24,veían,3,ver,,VERB,ROOT,VERB,False,True,False,False,['veían'],1.0,122,1
+312,4,24,en,4,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+313,5,24,plena,5,pleno,,ADJ,amod,ADJ,False,True,False,False,"['ple', 'na']",2.0,283,2
+314,6,24,noche,6,noche,,NOUN,obl,NOUN,False,True,False,False,"['no', 'che']",2.0,2273,3
+315,8,24,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+316,9,24,el,9,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+317,10,24,día,10,día,,NOUN,obl,NOUN,True,True,False,False,['día'],1.0,3951,3
+318,11,24,continuaba,11,continuar,,VERB,conj,VERB,False,True,False,False,"['con', 'ti', 'nua', 'ba']",4.0,102,1
+319,12,24,para,12,para,,ADP,case,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+320,13,24,ellos,13,él,,PRON,obl,PRON,True,True,False,False,['ellos'],1.0,3177,3
+321,14,24,indefinidamente,14,indefinidamente,,ADV,advmod,ADV,False,True,False,False,"['in', 'de', 'fi', 'ni', 'da', 'men', 'te']",7.0,44,1
+322,0,25,sufrían,0,Sufrían,LOC,PROPN,nsubj,PROPN,False,True,False,False,"['su', 'frían']",2.0,22,1
+323,2,25,cada,2,cada,,DET,det,DET,True,True,False,False,"['ca', 'da']",2.0,4389,3
+324,3,25,fibra,3,fibra,,NOUN,nsubj,NOUN,False,True,False,False,"['fi', 'bra']",2.0,53,2
+325,4,25,de,4,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+326,5,25,mi,5,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+327,6,25,cuerpo,6,cuerpo,,NOUN,nmod,NOUN,False,True,False,False,"['cuer', 'po']",2.0,1924,3
+328,7,25,alcanzaba,7,alcanzar,,VERB,ROOT,VERB,False,True,False,False,"['al', 'can', 'za', 'ba']",4.0,62,1
+329,8,25,ese,8,ese,,DET,det,DET,True,True,False,False,['ese'],1.0,4406,4
+330,9,25,sufrimiento,9,sufrimiento,,NOUN,obj,NOUN,False,True,False,False,"['su', 'fri', 'mien', 'to']",4.0,149,1
+331,10,25,amordazado,10,amordazado,,ADJ,amod,ADJ,False,True,False,False,"['amor', 'da', 'za', 'do']",4.0,2,1
+332,0,26,yo,0,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+333,1,26,era,1,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+334,2,26,un,2,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+335,3,26,axolotl,3,axolotl,,NOUN,ROOT,NOUN,False,True,False,False,"['axo', 'lo', 'tl']",3.0,,
+336,4,26,y,4,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+337,5,26,sabía,5,saber,,VERB,conj,VERB,False,True,False,False,"['sa', 'bía']",2.0,942,2
+338,6,26,ahora,6,ahora,,ADV,advmod,ADV,True,True,False,False,"['aho', 'ra']",2.0,4949,3
+339,7,26,instantáneamente,7,instantáneamente,,ADJ,obj,ADJ,False,True,False,False,"['ins', 'tan', 'tá', 'nea', 'men', 'te']",6.0,14,1
+340,8,26,que,8,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+341,9,26,ninguna,9,ninguno,,DET,det,DET,True,True,False,False,"['nin', 'gu', 'na']",3.0,1036,3
+342,10,26,comprensión,10,comprensión,,NOUN,nsubj,NOUN,False,True,False,False,"['com', 'pren', 'sión']",3.0,112,1
+343,11,26,era,11,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+344,12,26,posible,12,posible,,ADJ,ccomp,ADJ,True,True,False,False,"['po', 'si', 'ble']",3.0,1690,3
+345,0,27,él,0,él,,PRON,nsubj,PRON,True,True,False,False,['él'],1.0,5809,2
+346,1,27,estaba,1,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'ta', 'ba']",3.0,4484,2
+347,2,27,fuera,2,fuera,,ADV,ROOT,ADV,True,True,False,False,"['fue', 'ra']",2.0,1624,4
+348,3,27,del,3,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+349,4,27,acuario,4,acuario,,NOUN,obl,NOUN,False,True,False,False,"['acua', 'rio']",2.0,9,2
+350,6,27,su,6,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+351,7,27,pensamiento,7,pensamiento,,NOUN,nsubj,NOUN,False,True,False,False,"['pen', 'sa', 'mien', 'to']",4.0,403,2
+352,8,27,era,8,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+353,9,27,un,9,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+354,10,27,pensamiento,10,pensamiento,,NOUN,advcl,NOUN,False,True,False,False,"['pen', 'sa', 'mien', 'to']",4.0,403,2
+355,11,27,fuera,11,fuera,,ADV,advmod,ADV,True,True,False,False,"['fue', 'ra']",2.0,1624,4
+356,12,27,del,12,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+357,13,27,acuario,13,acuario,,NOUN,obl,NOUN,False,True,False,False,"['acua', 'rio']",2.0,9,2
+358,0,28,me,0,yo,,PRON,iobj,PRON,True,True,False,False,['me'],1.0,18437,3
+359,1,28,pareció,1,parecer,,VERB,ROOT,VERB,False,True,False,False,"['pa', 're', 'ció']",3.0,385,1
+360,2,28,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+361,3,28,no,3,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+362,4,28,se,4,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+363,5,28,interesaba,5,interesar,,VERB,csubj,VERB,False,True,False,False,"['in', 'te', 're', 'sa', 'ba']",5.0,69,2
+364,6,28,tanto,6,tanto,,ADV,cc,ADV,True,True,False,False,"['tan', 'to']",2.0,2483,4
+365,7,28,por,7,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+366,8,28,nosotros,8,yo,,PRON,nsubj,PRON,True,True,False,False,"['no', 'so', 'tros']",3.0,1515,3
+367,10,28,que,10,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+368,11,28,obedecía,11,obedecer,,VERB,acl,VERB,False,True,False,False,"['obe', 'de', 'cía']",3.0,20,1
+369,12,28,a,12,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+370,13,28,una,13,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+371,14,28,costumbre,14,costumbre,,NOUN,obj,NOUN,False,True,False,False,"['cos', 'tum', 'bre']",3.0,238,1
+372,0,29,me,0,yo,,PRON,iobj,PRON,True,True,False,False,['me'],1.0,18437,3
+373,1,29,parece,1,parecer,,VERB,ROOT,VERB,True,True,False,False,"['pa', 're', 'ce']",3.0,2427,5
+374,2,29,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+375,3,29,de,3,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+376,4,29,todo,4,todo,,DET,det,DET,True,True,False,False,"['to', 'do']",2.0,7722,5
+377,5,29,esto,5,este,,PRON,nsubj,PRON,True,True,False,False,"['es', 'to']",2.0,2276,2
+378,6,29,alcancé,6,alcancer,,VERB,csubj,VERB,False,True,False,False,"['al', 'can', 'cé']",3.0,18,1
+379,7,29,a,7,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+380,8,29,comunicarle,8,comunicar él,,VERB,xcomp,VERB,False,True,False,False,"['co', 'mu', 'ni', 'car', 'le']",5.0,13,1
+381,9,29,algo,9,algo,,PRON,obj,PRON,True,True,False,False,"['al', 'go']",2.0,4157,3
+382,10,29,en,10,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+383,11,29,los,11,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+384,12,29,primeros,12,primero,,ADJ,amod,ADJ,True,True,False,False,"['pri', 'me', 'ros']",3.0,902,2
+385,13,29,días,13,día,,NOUN,obl,NOUN,True,True,False,False,['días'],1.0,2340,3
+386,0,30,este,0,este,,DET,det,DET,True,True,False,False,"['es', 'te']",2.0,7736,5
+387,1,30,resumen,1,resumen,,NOUN,ROOT,NOUN,False,True,False,False,"['re', 'su', 'men']",3.0,66,3
+388,2,30,que,2,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+389,3,30,publico,3,publico,,ADJ,dep,ADJ,False,True,False,False,"['pu', 'bli', 'co']",3.0,27,2
+390,4,30,ahora,4,ahora,,ADV,advmod,ADV,True,True,False,False,"['aho', 'ra']",2.0,4949,3
+391,5,30,tiene,5,tener,,VERB,acl,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+392,6,30,necesariamente,6,necesariamente,,ADV,advmod,ADV,False,True,False,False,"['ne', 'ce', 'sa', 'ria', 'men', 'te']",6.0,144,1
+393,7,30,que,7,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+394,8,30,ser,8,ser,,AUX,cop,AUX,True,True,False,False,['ser'],1.0,8389,4
+395,9,30,imperfecto,9,imperfecto,,ADJ,conj,ADJ,False,True,False,False,"['im', 'per', 'fec', 'to']",4.0,9,1
+396,0,31,puedo,0,poder,,AUX,aux,AUX,True,True,False,False,"['pue', 'do']",2.0,723,1
+397,1,31,aventurarme,1,aventurar yo,,VERB,ROOT,VERB,False,True,False,False,"['aven', 'tu', 'rar', 'me']",4.0,2,1
+398,2,31,a,2,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+399,3,31,manifestar,3,manifestar,,VERB,xcomp,VERB,False,True,False,False,"['ma', 'ni', 'fes', 'tar']",4.0,49,1
+400,4,31,mi,4,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+401,5,31,convicción,5,convicción,,NOUN,obj,NOUN,False,True,False,False,"['con', 'vic', 'ción']",3.0,112,1
+402,6,31,sobre,6,sobre,,ADP,case,ADP,True,True,False,False,"['so', 'bre']",2.0,8172,6
+403,7,31,el,7,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+404,8,31,gran,8,gran,,ADJ,amod,ADJ,True,True,False,False,['gran'],1.0,2979,2
+405,9,31,valor,9,valor,,NOUN,obl,NOUN,True,True,False,False,"['va', 'lor']",2.0,586,3
+406,10,31,de,10,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+407,11,31,estos,11,este,,DET,det,DET,True,True,False,False,"['es', 'tos']",2.0,2657,4
+408,12,31,estudios,12,estudio,,NOUN,nmod,NOUN,False,True,False,False,"['es', 'tu', 'dios']",3.0,513,2
+409,0,32,es,0,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+410,1,32,ésta,1,este,,PRON,nsubj,PRON,True,True,False,False,"['és', 'ta']",2.0,838,2
+411,2,32,la,2,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+412,3,32,doctrina,3,doctrina,,NOUN,ROOT,NOUN,False,True,False,False,"['doc', 'tri', 'na']",3.0,101,4
+413,4,32,de,4,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+414,5,32,malthus,5,Malthus,PER,PROPN,nmod,PROPN,False,True,False,False,"['mal', 'thus']",2.0,1,1
+415,6,32,aplicada,6,aplicado,,ADJ,amod,ADJ,False,True,False,False,"['apli', 'ca', 'da']",3.0,39,2
+416,7,32,al,7,al,,ADP,case,ADP,True,True,False,False,['al'],1.0,24980,3
+417,8,32,conjunto,8,conjunto,,NOUN,obj,NOUN,False,True,False,False,"['con', 'jun', 'to']",3.0,573,3
+418,9,32,de,9,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+419,10,32,los,10,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+420,11,32,reinos,11,reino,,NOUN,nmod,NOUN,False,True,False,False,"['rei', 'nos']",2.0,27,1
+421,12,32,animal,12,animal,,ADJ,amod,ADJ,False,True,False,False,"['ani', 'mal']",2.0,409,2
+422,13,32,y,13,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+423,14,32,vegetal,14,vegetal,,NOUN,conj,NOUN,False,True,False,False,"['ve', 'ge', 'tal']",3.0,52,2
+424,0,33,en,0,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+425,1,33,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+426,2,33,capítulo,2,capítulo,,NOUN,obl,NOUN,False,True,False,False,"['ca', 'pí', 'tu', 'lo']",4.0,188,3
+427,3,33,siguiente,3,siguiente,,ADJ,amod,ADJ,True,True,False,False,"['si', 'guien', 'te']",3.0,732,1
+428,4,33,discutiré,4,discutir,,VERB,ROOT,VERB,False,True,False,False,"['dis', 'cu', 'ti', 'ré']",4.0,1,1
+429,5,33,las,5,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+430,6,33,complejas,6,compleja,,NOUN,nsubj,NOUN,False,True,False,False,"['com', 'ple', 'jas']",3.0,58,1
+431,7,33,y,7,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+432,8,33,poco,8,poco,,ADV,advmod,ADV,True,True,False,False,"['po', 'co']",2.0,3249,4
+433,9,33,conocidas,9,conocido,,ADJ,amod,ADJ,False,True,False,False,"['co', 'no', 'ci', 'das']",4.0,99,3
+434,10,33,leyes,10,ley,,NOUN,conj,NOUN,False,True,False,False,"['le', 'yes']",2.0,322,2
+435,11,33,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+436,12,33,la,12,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+437,13,33,variación,13,variación,,NOUN,nmod,NOUN,False,True,False,False,"['va', 'ria', 'ción']",3.0,34,1
+438,0,34,en,0,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+439,1,34,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+440,2,34,último,2,último,,ADJ,amod,ADJ,True,True,False,False,"['úl', 'ti', 'mo']",3.0,1103,2
+441,3,34,capítulo,3,capítulo,,NOUN,obl,NOUN,False,True,False,False,"['ca', 'pí', 'tu', 'lo']",4.0,188,3
+442,4,34,daré,4,dar,,VERB,ROOT,VERB,False,True,False,False,"['da', 'ré']",2.0,24,1
+443,5,34,un,5,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+444,6,34,breve,6,breve,,ADJ,amod,ADJ,True,True,False,False,"['bre', 've']",2.0,286,3
+445,7,34,resumen,7,resumen,,NOUN,obj,NOUN,False,True,False,False,"['re', 'su', 'men']",3.0,66,3
+446,8,34,de,8,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+447,9,34,toda,9,todo,,DET,det,DET,True,True,False,False,"['to', 'da']",2.0,2670,4
+448,10,34,la,10,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+449,11,34,obra,11,obra,,NOUN,nmod,NOUN,False,True,False,False,['obra'],1.0,899,4
+450,0,35,los,0,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+451,1,35,efectos,1,efecto,,NOUN,nsubj,NOUN,False,True,False,False,"['efec', 'tos']",2.0,525,2
+452,2,35,en,2,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+453,3,35,la,3,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+454,4,35,descendencia,4,descendencia,,NOUN,nmod,NOUN,False,True,False,False,"['des', 'cen', 'den', 'cia']",4.0,41,1
+455,5,35,son,5,ser,,AUX,aux,AUX,True,True,False,False,['son'],1.0,7473,5
+456,6,35,determinados,6,determinado,,ADJ,ROOT,ADJ,False,True,False,False,"['de', 'ter', 'mi', 'na', 'dos']",5.0,172,3
+457,7,35,o,7,o,,CCONJ,cc,CCONJ,False,True,False,False,['o'],1.0,18470,3
+458,8,35,indeterminados,8,indeterminado,,ADJ,conj,ADJ,False,True,False,False,"['in', 'de', 'ter', 'mi', 'na', 'dos']",6.0,1,1
+459,0,36,esto,0,este,,PRON,nsubj,PRON,True,True,False,False,"['es', 'to']",2.0,2276,2
+460,1,36,se,1,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+461,2,36,atribuye,2,atribuir,,VERB,ROOT,VERB,False,True,False,False,"['atri', 'bu', 'ye']",3.0,55,2
+462,3,36,en,3,en,,ADP,advmod,ADP,True,True,False,False,['en'],1.0,116349,3
+463,4,36,general,4,general,,NOUN,fixed,NOUN,True,True,False,False,"['ge', 'ne', 'ral']",3.0,1552,3
+464,6,36,aunque,6,aunque,,SCONJ,cc,SCONJ,True,True,False,False,"['aun', 'que']",2.0,4460,3
+465,7,36,erróneamente,7,erróneamente,,ADV,fixed,ADV,False,True,False,False,"['erró', 'nea', 'men', 'te']",4.0,20,1
+466,9,36,a,9,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+467,10,36,instintos,10,instinto,,NOUN,obl,NOUN,False,True,False,False,"['ins', 'tin', 'tos']",3.0,62,1
+468,11,36,viciados,11,viciado,,ADJ,amod,ADJ,False,True,False,False,"['vi', 'cia', 'dos']",3.0,,
+469,0,37,muchas,0,mucho,,DET,det,DET,True,True,False,False,"['mu', 'chas']",2.0,1456,3
+470,1,37,plantas,1,planta,,NOUN,nsubj,NOUN,False,True,False,False,"['plan', 'tas']",2.0,220,3
+471,2,37,exóticas,2,exótico,,ADJ,amod,ADJ,False,True,False,False,"['exó', 'ti', 'cas']",3.0,13,1
+472,3,37,tienen,3,tener,,VERB,ROOT,VERB,True,True,False,False,"['tie', 'nen']",2.0,2117,2
+473,4,37,polen,4,polar,,VERB,obj,VERB,False,True,False,False,"['po', 'len']",2.0,32,1
+474,5,37,completamente,5,completamente,,ADV,advmod,ADV,False,True,False,False,"['com', 'ple', 'ta', 'men', 'te']",5.0,286,1
+475,6,37,inútil,6,inútil,,ADJ,amod,ADJ,False,True,False,False,"['inú', 'til']",2.0,245,3
+476,0,38,estas,0,este,,DET,det,DET,True,True,False,False,"['es', 'tas']",2.0,2221,4
+477,1,38,variaciones,1,variación,,NOUN,nsubj,NOUN,False,True,False,False,"['va', 'ria', 'cio', 'nes']",4.0,77,1
+478,2,38,de,2,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+479,3,38,brotes,3,brote,,NOUN,nmod,NOUN,False,True,False,False,"['bro', 'tes']",2.0,24,2
+480,5,38,como,5,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+481,6,38,puede,6,puede,,NOUN,fixed,NOUN,True,True,False,False,"['pue', 'de']",2.0,5454,3
+482,7,38,llamárseles,7,llamársel,,ADJ,amod,ADJ,False,True,False,False,"['lla', 'már', 's', 'eles']",4.0,,
+483,9,38,pueden,9,poder,,AUX,aux,AUX,True,True,False,False,"['pue', 'den']",2.0,1921,2
+484,10,38,ser,10,ser,,AUX,aux,AUX,True,True,False,False,['ser'],1.0,8389,4
+485,11,38,propagadas,11,propagar,,VERB,ROOT,VERB,False,True,False,False,"['pro', 'pa', 'ga', 'das']",4.0,,
+486,12,38,por,12,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+487,13,38,injertos,13,injerto,,NOUN,obj,NOUN,False,True,False,False,"['in', 'jer', 'tos']",3.0,6,1
+488,0,39,el,0,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+489,1,39,cambio,1,cambio,,NOUN,nsubj,NOUN,False,True,False,False,"['cam', 'bio']",2.0,669,3
+490,2,39,de,2,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+491,3,39,condiciones,3,condición,,NOUN,nmod,NOUN,False,True,False,False,"['con', 'di', 'cio', 'nes']",4.0,517,2
+492,4,39,produce,4,producir,,VERB,ROOT,VERB,False,True,False,False,"['pro', 'du', 'ce']",3.0,538,2
+493,5,39,un,5,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+494,6,39,efecto,6,efecto,,NOUN,obj,NOUN,False,True,False,False,"['efec', 'to']",2.0,502,2
+495,7,39,hereditario,7,hereditario,,ADJ,amod,ADJ,False,True,False,False,"['he', 're', 'di', 'ta', 'rio']",5.0,11,1
+496,0,40,sólo,0,sólo,PER,ADV,advmod,ADV,True,True,False,False,"['só', 'lo']",2.0,7174,3
+497,1,40,me,1,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+498,2,40,referiré,2,referir,,VERB,ROOT,VERB,False,True,False,False,"['re', 'fe', 'ri', 'ré']",4.0,5,1
+499,3,40,aquí,3,aquí,,ADV,advmod,ADV,True,True,False,False,['aquí'],1.0,2595,3
+500,4,40,a,4,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+501,5,40,lo,5,él,,PRON,det,PRON,True,True,False,False,['lo'],1.0,31492,6
+502,6,40,que,6,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+503,7,40,puede,7,poder,,AUX,aux,AUX,True,True,False,False,"['pue', 'de']",2.0,5454,3
+504,8,40,llamarse,8,llamar él,,VERB,advcl,VERB,False,True,False,False,"['lla', 'mar', 'se']",3.0,95,1
+505,9,40,variación,9,variación,,NOUN,obj,NOUN,False,True,False,False,"['va', 'ria', 'ción']",3.0,34,1
+506,10,40,correlativa,10,correlativo,,ADJ,amod,ADJ,False,True,False,False,"['co', 'rre', 'la', 'ti', 'va']",5.0,5,1
+507,0,41,los,0,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+508,1,41,criadores,1,criador,,NOUN,nsubj,NOUN,False,True,False,False,"['cria', 'do', 'res']",3.0,5,1
+509,2,41,creen,2,creer,,VERB,ROOT,VERB,False,True,False,False,['creen'],1.0,236,3
+510,3,41,que,3,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+511,4,41,las,4,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+512,5,41,patas,5,pata,,NOUN,nsubj,NOUN,False,True,False,False,"['pa', 'tas']",2.0,118,2
+513,6,41,largas,6,larga,,ADJ,amod,ADJ,False,True,False,False,"['lar', 'gas']",2.0,222,3
+514,7,41,van,7,ir,,VERB,ccomp,VERB,True,True,False,False,['van'],1.0,1063,3
+515,8,41,casi,8,casi,,ADV,advmod,ADV,True,True,False,False,"['ca', 'si']",2.0,3355,3
+516,9,41,siempre,9,siempre,,ADV,advmod,ADV,True,True,False,False,"['siem', 'pre']",2.0,4841,3
+517,10,41,acompañadas,10,acompañado,,ADJ,obj,ADJ,False,True,False,False,"['acom', 'pa', 'ña', 'das']",4.0,24,2
+518,11,41,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+519,12,41,cabeza,12,cabeza,,NOUN,obj,NOUN,False,True,False,False,"['ca', 'be', 'za']",3.0,1978,3
+520,13,41,alargada,13,alargado,,ADJ,amod,ADJ,False,True,False,False,"['alar', 'ga', 'da']",3.0,10,1
+521,0,42,toda,0,todo,,DET,det,DET,True,True,False,False,"['to', 'da']",2.0,2670,4
+522,1,42,variación,1,variación,,NOUN,nsubj,NOUN,False,True,False,False,"['va', 'ria', 'ción']",3.0,34,1
+523,2,42,que,2,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+524,3,42,no,3,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+525,4,42,es,4,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+526,5,42,hereditaria,5,hereditario,,ADJ,acl,ADJ,False,True,False,False,"['he', 're', 'di', 'ta', 'ria']",5.0,10,1
+527,6,42,carece,6,carecer,,VERB,ROOT,VERB,False,True,False,False,"['ca', 're', 'ce']",3.0,122,2
+528,7,42,de,7,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+529,8,42,importancia,8,importancia,,NOUN,obj,NOUN,False,True,False,False,"['im', 'por', 'tan', 'cia']",4.0,608,2
+530,9,42,para,9,para,,ADP,case,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+531,10,42,nosotros,10,yo,,PRON,nmod,PRON,True,True,False,False,"['no', 'so', 'tros']",3.0,1515,3
+532,0,43,las,0,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+533,1,43,leyes,1,ley,,NOUN,nsubj,NOUN,False,True,False,False,"['le', 'yes']",2.0,322,2
+534,2,43,que,2,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+535,3,43,rigen,3,regar,,VERB,acl,VERB,False,True,False,False,"['ri', 'gen']",2.0,39,1
+536,4,43,la,4,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+537,5,43,herencia,5,herencia,,NOUN,obj,NOUN,False,True,False,False,"['he', 'ren', 'cia']",3.0,147,2
+538,6,43,son,6,ser,,AUX,cop,AUX,True,True,False,False,['son'],1.0,7473,5
+539,8,43,en,8,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+540,9,43,su,9,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+541,10,43,mayor,10,mayor,,ADJ,amod,ADJ,True,True,False,False,"['ma', 'yor']",2.0,2235,4
+542,11,43,parte,11,parte,,NOUN,obl,NOUN,True,True,False,False,"['par', 'te']",2.0,3388,5
+543,13,43,desconocidas,13,desconocido,,ADJ,ROOT,ADJ,False,True,False,False,"['des', 'co', 'no', 'ci', 'das']",5.0,39,3
+544,0,44,creo,0,creer,,VERB,ROOT,VERB,True,True,False,False,['creo'],1.0,1112,2
+545,1,44,que,1,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+546,2,44,esta,2,este,,DET,det,DET,True,True,False,False,"['es', 'ta']",2.0,6684,3
+547,3,44,regla,3,regla,,NOUN,nsubj,NOUN,False,True,False,False,"['re', 'gla']",2.0,147,3
+548,4,44,es,4,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+549,5,44,de,5,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+550,6,44,suma,6,sumo,,ADJ,amod,ADJ,False,True,False,False,"['su', 'ma']",2.0,150,6
+551,7,44,importancia,7,importancia,,NOUN,ccomp,NOUN,False,True,False,False,"['im', 'por', 'tan', 'cia']",4.0,608,2
+552,8,44,para,8,para,,ADP,mark,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+553,9,44,explicar,9,explicar,,VERB,acl,VERB,False,True,False,False,"['ex', 'pli', 'car']",3.0,291,1
+554,10,44,las,10,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+555,11,44,leyes,11,ley,,NOUN,obj,NOUN,False,True,False,False,"['le', 'yes']",2.0,322,2
+556,12,44,de,12,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+557,13,44,la,13,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+558,14,44,embriología,14,embriología,,NOUN,nmod,NOUN,False,True,False,False,"['em', 'brio', 'lo', 'gía']",4.0,5,2
+559,0,45,rebeca,0,Rebeca,MISC,PROPN,nsubj,PROPN,False,True,False,False,"['re', 'be', 'ca']",3.0,10,2
+560,1,45,no,1,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+561,2,45,era,2,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+562,3,45,ninguna,3,ninguno,,DET,det,DET,True,True,False,False,"['nin', 'gu', 'na']",3.0,1036,3
+563,4,45,niña,4,niña,,NOUN,ROOT,NOUN,False,True,False,False,"['ni', 'ña']",2.0,566,3
+564,5,45,cuando,5,cuando,,SCONJ,mark,SCONJ,True,True,False,False,"['cuan', 'do']",2.0,10076,5
+565,6,45,la,6,él,,PRON,obj,PRON,True,True,False,False,['la'],1.0,192562,6
+566,7,45,enviaron,7,enviar,,VERB,advcl,VERB,False,True,False,False,"['en', 'via', 'ron']",3.0,16,1
+567,8,45,a,8,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+568,9,45,nuestra,9,nuestro,,DET,det,DET,True,True,False,False,"['nues', 'tra']",2.0,1877,3
+569,10,45,clínica,10,clínica,,NOUN,iobj,NOUN,False,True,False,False,"['clí', 'ni', 'ca']",3.0,77,2
+570,0,46,pero,0,pero,,CCONJ,advmod,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+571,1,46,era,1,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+572,2,46,capaz,2,capaz,,ADJ,ROOT,ADJ,False,True,False,False,"['ca', 'paz']",2.0,906,1
+573,3,46,de,3,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+574,4,46,afectos,4,afecto,,NOUN,nmod,NOUN,False,True,False,False,"['afec', 'tos']",2.0,32,2
+575,5,46,cálidos,5,cálido,,ADJ,amod,ADJ,False,True,False,False,"['cá', 'li', 'dos']",3.0,20,1
+576,7,46,profundos,7,profundo,,ADJ,amod,ADJ,False,True,False,False,"['pro', 'fun', 'dos']",3.0,60,2
+577,9,46,apasionados,9,apasionado,,ADJ,amod,ADJ,False,True,False,False,"['apa', 'sio', 'na', 'dos']",4.0,15,2
+578,10,46,incluso,10,incluso,,ADV,advmod,ADV,True,True,False,False,"['in', 'clu', 'so']",3.0,2119,3
+579,0,47,no,0,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+580,1,47,había,1,haber,,AUX,ROOT,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+581,2,47,en,2,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+582,3,47,su,3,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+583,4,47,postura,4,postura,,NOUN,obl,NOUN,False,True,False,False,"['pos', 'tu', 'ra']",3.0,224,1
+584,5,47,nada,5,nada,,PRON,amod,PRON,True,True,False,False,"['na', 'da']",2.0,3806,6
+585,6,47,de,6,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+586,7,47,la,7,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+587,8,47,torpeza,8,torpeza,,NOUN,nmod,NOUN,False,True,False,False,"['tor', 'pe', 'za']",3.0,60,1
+588,9,47,que,9,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+589,10,47,tanto,10,tanto,,ADV,advmod,ADV,True,True,False,False,"['tan', 'to']",2.0,2483,4
+590,11,47,me,11,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+591,12,47,había,12,haber,,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+592,13,47,impresionado,13,impresionar,,VERB,acl,VERB,False,True,False,False,"['im', 'pre', 'sio', 'na', 'do']",5.0,36,1
+593,14,47,la,14,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+594,15,47,vez,15,vez,,NOUN,obl,NOUN,True,True,False,False,['vez'],1.0,4171,2
+595,16,47,anterior,16,anterior,,ADJ,amod,ADJ,True,True,False,False,"['an', 'te', 'rior']",3.0,669,2
+596,0,48,podría,0,poder,PER,AUX,aux,AUX,True,True,False,False,"['po', 'dría']",2.0,1496,2
+597,1,48,haber,1,haber,,AUX,aux,AUX,True,True,False,False,"['ha', 'ber']",2.0,1823,3
+598,2,48,sido,2,ser,,AUX,cop,AUX,True,True,False,False,"['si', 'do']",2.0,3724,3
+599,3,48,una,3,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+600,4,48,joven,4,joven,,ADJ,ROOT,ADJ,False,True,False,False,"['jo', 'ven']",2.0,1130,4
+601,5,48,cualquiera,5,cualquiera,,PRON,amod,PRON,False,True,False,False,"['cual', 'quie', 'ra']",3.0,481,3
+602,6,48,disfrutando,6,disfrutar,,VERB,advcl,VERB,False,True,False,False,"['dis', 'fru', 'tan', 'do']",4.0,19,1
+603,7,48,de,7,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+604,8,48,un,8,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+605,9,48,bello,9,bello,,NOUN,amod,NOUN,False,True,False,False,"['be', 'llo']",2.0,104,2
+606,10,48,día,10,día,,NOUN,obl,NOUN,True,True,False,False,['día'],1.0,3951,3
+607,11,48,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+608,12,48,primavera,12,primavera,,NOUN,nmod,NOUN,False,True,False,False,"['pri', 'ma', 've', 'ra']",4.0,246,3
+609,0,49,ésta,0,este,,PRON,nsubj,PRON,True,True,False,False,"['és', 'ta']",2.0,838,2
+610,1,49,era,1,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+611,2,49,mi,2,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+612,3,49,visión,3,visión,,NOUN,ROOT,NOUN,False,True,False,False,"['vi', 'sión']",2.0,388,1
+613,4,49,humana,4,humano,,ADJ,amod,ADJ,False,True,False,False,"['hu', 'ma', 'na']",3.0,555,4
+614,6,49,frente,6,frente,,NOUN,case,NOUN,False,True,False,False,"['fren', 'te']",2.0,780,3
+615,7,49,a,7,a,,ADP,fixed,ADP,False,True,False,False,['a'],1.0,91360,3
+616,8,49,mi,8,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+617,9,49,visión,9,visión,,NOUN,conj,NOUN,False,True,False,False,"['vi', 'sión']",2.0,388,1
+618,10,49,neurológica,10,neurológico,,ADJ,amod,ADJ,False,True,False,False,"['neu', 'ro', 'ló', 'gi', 'ca']",5.0,5,1
+619,1,50,por,1,Por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+620,2,50,qué,2,qué,,PRON,obl,PRON,True,True,False,False,['qué'],1.0,6172,4
+621,3,50,se,3,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+622,4,50,había,4,haber,,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+623,5,50,desintegrado,5,desintegrar,,VERB,ROOT,VERB,False,True,False,False,"['de', 'sin', 'te', 'gra', 'do']",5.0,4,1
+624,6,50,antes,6,antes,,ADV,advmod,ADV,True,True,False,False,"['an', 'tes']",2.0,1633,4
+625,8,50,cómo,8,cómo,,PRON,obl,PRON,True,True,False,False,"['có', 'mo']",2.0,2894,4
+626,9,50,podía,9,poder,,AUX,aux,AUX,False,True,False,False,"['po', 'día']",2.0,1956,2
+627,10,50,estar,10,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'tar']",2.0,1646,2
+628,11,50,tan,11,tanto,,ADV,advmod,ADV,True,True,False,False,['tan'],1.0,6068,4
+629,12,50,integrada,12,integrado,,ADJ,advcl,ADJ,False,True,False,False,"['in', 'te', 'gra', 'da']",4.0,38,2
+630,13,50,ahora,13,ahora,,ADV,advmod,ADV,True,True,False,False,"['aho', 'ra']",2.0,4949,3
+631,0,51,yo,0,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+632,1,51,tenía,1,tener,,VERB,ROOT,VERB,True,True,False,False,"['te', 'nía']",2.0,3138,3
+633,2,51,una,2,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+634,3,51,vigorosísima,3,vigorosísimo,,ADJ,amod,ADJ,False,True,False,False,"['vi', 'go', 'ro', 'sí', 'si', 'ma']",6.0,,
+635,4,51,sensación,4,sensación,,NOUN,obj,NOUN,False,True,False,False,"['sen', 'sación']",2.0,538,2
+636,5,51,de,5,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+637,6,51,dos,6,dos,,NUM,nummod,NUM,True,True,False,False,['dos'],1.0,7394,4
+638,7,51,formas,7,forma,,NOUN,nmod,NOUN,False,True,False,False,"['for', 'mas']",2.0,588,3
+639,8,51,de,8,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+640,9,51,pensamiento,9,pensamiento,,NOUN,nmod,NOUN,False,True,False,False,"['pen', 'sa', 'mien', 'to']",4.0,403,2
+641,0,52,porque,0,porque,,SCONJ,mark,SCONJ,True,True,False,False,"['por', 'que']",2.0,7519,3
+642,1,52,lo,1,él,,PRON,det,PRON,True,True,False,False,['lo'],1.0,31492,6
+643,2,52,que,2,que,,PRON,obj,PRON,True,True,False,False,['que'],1.0,153240,5
+644,3,52,vi,3,ver,,VERB,csubj,VERB,False,True,False,False,['vi'],1.0,446,2
+645,4,52,en,4,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+646,5,52,ella,5,él,,PRON,obl,PRON,True,True,False,False,['ella'],1.0,5496,3
+647,7,52,lo,7,él,,PRON,det,PRON,True,True,False,False,['lo'],1.0,31492,6
+648,8,52,que,8,que,,PRON,obj,PRON,True,True,False,False,['que'],1.0,153240,5
+649,9,52,ella,9,él,,PRON,nsubj,PRON,True,True,False,False,['ella'],1.0,5496,3
+650,10,52,me,10,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+651,11,52,mostró,11,mostrar,,VERB,advcl,VERB,False,True,False,False,"['mos', 'tró']",2.0,161,2
+652,13,52,lo,13,él,,PRON,iobj,PRON,True,True,False,False,['lo'],1.0,31492,6
+653,14,52,veo,14,ver,,VERB,ROOT,VERB,False,True,False,False,['veo'],1.0,365,1
+654,15,52,ahora,15,ahora,,ADV,advmod,ADV,True,True,False,False,"['aho', 'ra']",2.0,4949,3
+655,16,52,en,16,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+656,17,52,todos,17,todo,,DET,det,DET,True,True,False,False,"['to', 'dos']",2.0,5834,4
+657,18,52,ellos,18,él,,PRON,obl,PRON,True,True,False,False,['ellos'],1.0,3177,3
+658,0,53,a,0,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+659,1,53,medida,1,medida,,NOUN,fixed,NOUN,False,True,False,False,"['me', 'di', 'da']",3.0,454,3
+660,2,53,que,2,que,,SCONJ,fixed,SCONJ,True,True,False,False,['que'],1.0,153240,5
+661,3,53,continué,3,continué,,PROPN,dep,PROPN,False,True,False,False,"['con', 'ti', 'nué']",3.0,10,1
+662,4,53,viéndola,4,viéndola,,PROPN,amod,PROPN,False,True,False,False,"['vién', 'do', 'la']",3.0,13,2
+663,6,53,su,6,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+664,7,53,personalidad,7,personalidad,,NOUN,nsubj,NOUN,False,True,False,False,"['per', 'so', 'na', 'li', 'dad']",5.0,272,2
+665,8,53,pareció,8,parecer,,VERB,ROOT,VERB,False,True,False,False,"['pa', 're', 'ció']",3.0,385,1
+666,9,53,hacerse,9,hacer él,,VERB,xcomp,VERB,False,True,False,False,"['ha', 'cer', 'se']",3.0,439,2
+667,10,53,más,10,más,,ADV,advmod,ADV,True,True,False,False,['más'],1.0,20040,4
+668,11,53,profunda,11,profundo,,ADJ,obj,ADJ,False,True,False,False,"['pro', 'fun', 'da']",3.0,275,3
+669,0,54,estaba,0,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'ta', 'ba']",3.0,4484,2
+670,1,54,destrozada,1,destrozado,,ADJ,ROOT,ADJ,False,True,False,False,"['des', 'tro', 'za', 'da']",4.0,16,1
+671,3,54,pero,3,pero,,CCONJ,cc,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+672,4,54,se,4,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+673,5,54,comportaba,5,comportar,,VERB,conj,VERB,False,True,False,False,"['com', 'por', 'ta', 'ba']",4.0,13,1
+674,6,54,con,6,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+675,7,54,mucha,7,mucho,,DET,det,DET,True,True,False,False,"['mu', 'cha']",2.0,564,2
+676,8,54,dignidad,8,dignidad,,NOUN,obj,NOUN,False,True,False,False,"['dig', 'ni', 'dad']",3.0,198,1
+677,1,55,era,1,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+678,2,55,un,2,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+679,3,55,símbolo,3,símbolo,,NOUN,ROOT,NOUN,False,True,False,False,"['sím', 'bo', 'lo']",3.0,148,2
+680,4,55,propio,4,propio,,ADJ,amod,ADJ,True,True,False,False,"['pro', 'pio']",2.0,1431,4
+681,5,55,o,5,o,,CCONJ,cc,CCONJ,False,True,False,False,['o'],1.0,18470,3
+682,6,55,un,6,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+683,7,55,recuerdo,7,recuerdo,,NOUN,conj,NOUN,False,True,False,False,"['re', 'cuer', 'do']",3.0,896,5
+684,8,55,inconsciente,8,inconsciente,,ADJ,amod,ADJ,False,True,False,False,"['in', 'cons', 'cien', 'te']",4.0,86,2
+685,9,55,del,9,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+686,10,55,eclesiastés,10,Eclesiastés,LOC,PROPN,nmod,PROPN,False,True,False,False,"['ecle', 'sias', 'tés']",3.0,2,1
+687,11,55,o,11,o,,CCONJ,cc,CCONJ,False,True,False,False,['o'],1.0,18470,3
+688,12,55,una,12,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+689,13,55,alusión,13,alusión,,NOUN,conj,NOUN,False,True,False,False,"['alu', 'sión']",2.0,56,1
+690,14,55,a,14,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+691,15,55,él,15,él,,PRON,nmod,PRON,True,True,False,False,['él'],1.0,5809,2
+692,0,56,la,0,él,,PRON,obj,PRON,True,True,False,False,['la'],1.0,192562,6
+693,1,56,ayudaron,1,ayudar,,VERB,ROOT,VERB,False,True,False,False,"['ayu', 'da', 'ron']",3.0,23,1
+694,2,56,muchísimo,2,muchísimo,,ADV,advmod,ADV,False,True,False,False,"['mu', 'chí', 'si', 'mo']",4.0,125,2
+695,3,56,el,3,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+696,4,56,apoyo,4,apoyo,,NOUN,nsubj,NOUN,False,True,False,False,"['apo', 'yo']",2.0,386,3
+697,5,56,y,5,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+698,6,56,la,6,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+699,7,56,comprensión,7,comprensión,,NOUN,conj,NOUN,False,True,False,False,"['com', 'pren', 'sión']",3.0,112,1
+700,8,56,de,8,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+701,9,56,una,9,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+702,10,56,tía,10,tía,,NOUN,nmod,NOUN,False,True,False,False,['tía'],1.0,431,2
+703,11,56,abuela,11,abuela,,NOUN,amod,NOUN,False,True,False,False,"['abue', 'la']",2.0,395,2
+704,12,56,suya,12,suyo,,DET,det,DET,True,True,False,False,"['su', 'ya']",2.0,361,2
+705,0,57,es,0,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+706,1,57,probable,1,probable,,ADJ,ROOT,ADJ,False,True,False,False,"['pro', 'ba', 'ble']",3.0,269,1
+707,2,57,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+708,3,57,también,3,también,,ADV,advmod,ADV,True,True,False,False,"['tam', 'bién']",2.0,7087,3
+709,4,57,la,4,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+710,5,57,ayudase,5,ayudase,,NOUN,csubj,NOUN,False,True,False,False,"['ayu', 'da', 'se']",3.0,4,1
+711,6,57,el,6,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+712,7,57,que,7,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+713,8,57,pudiese,8,poder,,VERB,csubj,VERB,False,True,False,False,"['pu', 'die', 'se']",3.0,62,1
+714,9,57,hablar,9,hablar,,VERB,xcomp,VERB,False,True,False,False,"['ha', 'blar']",2.0,1143,2
+715,10,57,libremente,10,libremente,,ADV,advmod,ADV,False,True,False,False,"['li', 'bre', 'men', 'te']",4.0,85,2
+716,11,57,conmigo,11,conmigo,,NOUN,obj,NOUN,True,True,False,False,"['con', 'mi', 'go']",3.0,417,2
+717,0,58,el,0,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+718,1,58,niño,1,niño,,NOUN,nsubj,NOUN,False,True,False,False,"['ni', 'ño']",2.0,1098,4
+719,2,58,sigue,2,seguir,,VERB,ROOT,VERB,True,True,False,False,"['si', 'gue']",2.0,781,3
+720,3,58,la,3,el,MISC,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+721,4,58,biblia,4,Biblia,MISC,PROPN,obj,PROPN,False,True,False,False,"['bi', 'blia']",2.0,56,2
+722,5,58,antes,5,antes,,ADV,advmod,ADV,True,True,False,False,"['an', 'tes']",2.0,1633,4
+723,6,58,de,6,de,,ADP,mark,ADP,True,True,False,False,['de'],1.0,264834,4
+724,7,58,seguir,7,seguir,,VERB,advcl,VERB,False,True,False,False,"['se', 'guir']",2.0,813,1
+725,8,58,a,8,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+726,9,58,euclides,9,Euclides,PER,PROPN,obj,PROPN,False,True,False,False,"['eu', 'cli', 'des']",3.0,3,1
+727,0,59,necesito,0,necesitar,PER,VERB,ROOT,VERB,False,True,False,False,"['ne', 'ce', 'si', 'to']",4.0,119,1
+728,1,59,una,1,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+729,2,59,pauta,2,pauta,,NOUN,obj,NOUN,False,True,False,False,"['pau', 'ta']",2.0,15,2
+730,4,59,un,4,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+731,5,59,dibujo,5,dibujo,,NOUN,appos,NOUN,False,True,False,False,"['di', 'bu', 'jo']",3.0,113,3
+732,7,59,como,7,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+733,8,59,el,8,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+734,9,59,que,9,que,,PRON,obj,PRON,True,True,False,False,['que'],1.0,153240,5
+735,10,59,hay,10,haber,,AUX,acl,AUX,True,True,False,False,['hay'],1.0,6072,3
+736,11,59,en,11,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+737,12,59,esa,12,ese,,DET,det,DET,True,True,False,False,['esa'],1.0,3989,3
+738,13,59,alfombra,13,alfombra,,NOUN,obl,NOUN,False,True,False,False,"['al', 'fom', 'bra']",3.0,91,4
+739,0,60,parece,0,parecer,,VERB,ROOT,VERB,True,True,False,False,"['pa', 're', 'ce']",3.0,2427,5
+740,1,60,algo,1,algo,,PRON,nsubj,PRON,True,True,False,False,"['al', 'go']",2.0,4157,3
+741,2,60,digno,2,digno,,ADJ,xcomp,ADJ,False,True,False,False,"['dig', 'no']",2.0,108,2
+742,3,60,de,3,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+743,4,60,risa,4,risa,,NOUN,nmod,NOUN,False,True,False,False,"['ri', 'sa']",2.0,216,1
+744,5,60,pero,5,pero,,CCONJ,cc,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+745,6,60,créame,6,crea yo,,VERB,conj,VERB,False,True,False,False,"['créa', 'me']",2.0,20,3
+746,7,60,que,7,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+747,8,60,era,8,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+748,9,60,una,9,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+749,10,60,cosa,10,cosa,,NOUN,ccomp,NOUN,False,True,False,False,"['co', 'sa']",2.0,1902,4
+750,11,60,bastante,11,bastante,,ADV,advmod,ADV,True,True,False,False,"['bas', 'tan', 'te']",3.0,904,4
+751,12,60,impresionante,12,impresionante,,ADJ,amod,ADJ,False,True,False,False,"['im', 'pre', 'sio', 'nan', 'te']",5.0,94,1
+752,0,61,hasta,0,hasta,,ADV,advmod,ADV,True,True,False,False,"['has', 'ta']",2.0,6437,3
+753,1,61,daba,1,dar,,VERB,ROOT,VERB,False,True,False,False,"['da', 'ba']",2.0,766,2
+754,2,61,la,2,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+755,3,61,impresión,3,impresión,,NOUN,obj,NOUN,False,True,False,False,"['im', 'pre', 'sión']",3.0,324,2
+756,4,61,de,4,de,,ADP,mark,ADP,True,True,False,False,['de'],1.0,264834,4
+757,5,61,ser,5,ser,,AUX,cop,AUX,True,True,False,False,['ser'],1.0,8389,4
+758,6,61,un,6,uno,,DET,advmod,DET,True,True,False,False,['un'],1.0,62236,4
+759,7,61,poco,7,poco,,PRON,fixed,PRON,True,True,False,False,"['po', 'co']",2.0,3249,4
+760,8,61,frío,8,frío,,ADJ,acl,ADJ,False,True,False,False,['frío'],1.0,557,5
+761,10,61,de,10,de,,ADP,mark,ADP,True,True,False,False,['de'],1.0,264834,4
+762,11,61,no,11,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+763,12,61,interesarle,12,interesar él,,VERB,acl,VERB,False,True,False,False,"['in', 'te', 're', 'sar', 'le']",5.0,9,1
+764,13,61,demasiado,13,demasiado,,ADV,advmod,ADV,True,True,False,False,"['de', 'ma', 'sia', 'do']",4.0,1321,3
+765,14,61,el,14,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+766,15,61,partido,15,partido,,NOUN,obj,NOUN,False,True,False,False,"['par', 'ti', 'do']",3.0,1456,4
+767,0,62,era,0,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+768,1,62,una,1,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+769,2,62,cosa,2,cosa,,NOUN,ROOT,NOUN,False,True,False,False,"['co', 'sa']",2.0,1902,4
+770,3,62,bastante,3,bastante,,ADV,advmod,ADV,True,True,False,False,"['bas', 'tan', 'te']",3.0,904,4
+771,4,62,dramática,4,dramático,,ADJ,amod,ADJ,False,True,False,False,"['dra', 'má', 'ti', 'ca']",4.0,80,2
+772,6,62,permítame,6,permítame,,NOUN,appos,NOUN,False,True,False,False,"['per', 'mí', 'ta', 'me']",4.0,13,3
+773,7,62,que,7,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+774,8,62,le,8,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+775,9,62,diga,9,decir,,VERB,acl,VERB,False,True,False,False,"['di', 'ga']",2.0,220,2
+776,0,63,vio,0,ver,,VERB,ROOT,VERB,False,True,False,False,['vio'],1.0,669,2
+777,1,63,usted,1,usted,,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+778,2,63,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+779,3,63,hay,3,haber,,AUX,ccomp,AUX,True,True,False,False,['hay'],1.0,6072,3
+780,4,63,gente,4,gente,,NOUN,obj,NOUN,False,True,False,False,"['gen', 'te']",2.0,1558,2
+781,5,63,que,5,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+782,6,63,cuando,6,cuando,,SCONJ,mark,SCONJ,True,True,False,False,"['cuan', 'do']",2.0,10076,5
+783,7,63,ve,7,ver,,VERB,advcl,VERB,False,True,False,False,['ve'],1.0,789,4
+784,8,63,llorar,8,llorar,,VERB,xcomp,VERB,False,True,False,False,"['llo', 'rar']",2.0,232,2
+785,9,63,a,9,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+786,10,63,otra,10,otro,,DET,det,DET,True,True,False,False,['otra'],1.0,3876,4
+787,11,63,persona,11,persona,,NOUN,obj,NOUN,False,True,False,False,"['per', 'so', 'na']",3.0,962,4
+788,13,63,llora,13,llorar,,VERB,acl,VERB,False,True,False,False,"['llo', 'ra']",2.0,47,4
+789,14,63,también,14,también,,ADV,advmod,ADV,True,True,False,False,"['tam', 'bién']",2.0,7087,3
+790,0,64,pero,0,pero,,CCONJ,advmod,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+791,2,64,eso,2,ese,,PRON,nsubj,PRON,True,True,False,False,['eso'],1.0,3421,3
+792,3,64,era,3,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+793,4,64,cierto,4,cierto,,ADJ,ROOT,ADJ,True,True,False,False,"['cier', 'to']",2.0,1058,1
+794,6,64,se,6,él,,PRON,expl:pass,PRON,True,True,False,False,['se'],1.0,68473,3
+795,7,64,le,7,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+796,8,64,notaba,8,notar,,VERB,advcl,VERB,False,True,False,False,"['no', 'ta', 'ba']",3.0,85,1
+797,9,64,que,9,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+798,10,64,no,10,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+799,11,64,era,11,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+800,12,64,un,12,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+801,13,64,muchacho,13,muchacho,,NOUN,csubj,NOUN,False,True,False,False,"['mu', 'cha', 'cho']",3.0,361,2
+802,14,64,muy,14,mucho,,ADV,advmod,ADV,True,True,False,False,['muy'],1.0,7936,3
+803,15,64,normal,15,normal,,ADJ,amod,ADJ,False,True,False,False,"['nor', 'mal']",2.0,451,3
+804,0,65,recuerdo,0,recordar,,VERB,ROOT,VERB,False,True,False,False,"['re', 'cuer', 'do']",3.0,896,5
+805,1,65,que,1,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+806,2,65,nos,2,yo,,PRON,iobj,PRON,True,True,False,False,['nos'],1.0,6511,3
+807,3,65,sentamos,3,sentir,,VERB,ccomp,VERB,False,True,False,False,"['sen', 'ta', 'mos']",3.0,19,1
+808,4,65,a,4,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+809,5,65,tomar,5,tomar,,VERB,xcomp,VERB,False,True,False,False,"['to', 'mar']",2.0,627,1
+810,6,65,un,6,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+811,7,65,café,7,café,,NOUN,obj,NOUN,False,True,False,False,"['ca', 'fé']",2.0,434,12
+812,8,65,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+813,9,65,me,9,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+814,10,65,esquivaba,10,esquivar,,VERB,conj,VERB,False,True,False,False,"['es', 'qui', 'va', 'ba']",4.0,4,1
+815,11,65,la,11,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+816,12,65,mirada,12,mirada,,NOUN,nsubj,NOUN,False,True,False,False,"['mi', 'ra', 'da']",3.0,947,3
+817,0,66,yo,0,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+818,1,66,le,1,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+819,2,66,hice,2,hacer,,VERB,ROOT,VERB,False,True,False,False,"['hi', 'ce']",2.0,253,1
+820,3,66,una,3,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+821,4,66,pregunta,4,pregunta,,NOUN,obj,NOUN,False,True,False,False,"['pre', 'gun', 'ta']",3.0,654,3
+822,5,66,y,5,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+823,6,66,no,6,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+824,7,66,me,7,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+825,8,66,contestó,8,contestar,,VERB,conj,VERB,False,True,False,False,"['con', 'tes', 'tó']",3.0,266,1
+826,10,66,no,10,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+827,11,66,me,11,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+828,12,66,contestó,12,contestar,,VERB,advcl,VERB,False,True,False,False,"['con', 'tes', 'tó']",3.0,266,1
+829,13,66,nada,13,nada,,PRON,nsubj,PRON,True,True,False,False,"['na', 'da']",2.0,3806,6
+830,0,67,había,0,haber,PER,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+831,1,67,empezado,1,empezar,,VERB,ROOT,VERB,False,True,False,False,"['em', 'pe', 'za', 'do']",4.0,163,1
+832,2,67,a,2,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+833,3,67,mirarme,3,mirar yo,,VERB,xcomp,VERB,False,True,False,False,"['mi', 'rar', 'me']",3.0,48,1
+834,4,67,con,4,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+835,5,67,cierta,5,cierto,,DET,det,DET,True,True,False,False,"['cier', 'ta']",2.0,704,1
+836,6,67,molesta,6,molesto,,ADJ,amod,ADJ,False,True,False,False,"['mo', 'les', 'ta']",3.0,67,3
+837,7,67,fijeza,7,fijeza,,NOUN,obl,NOUN,False,True,False,False,"['fi', 'je', 'za']",3.0,31,1
+838,0,68,el,0,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+839,1,68,sábado,1,sábado,,NOUN,obl,NOUN,False,True,False,False,"['sá', 'ba', 'do']",3.0,209,2
+840,2,68,lo,2,él,,PRON,obj,PRON,True,True,False,False,['lo'],1.0,31492,6
+841,3,68,fui,3,ir,,AUX,aux,AUX,True,True,False,False,['fui'],1.0,381,3
+842,4,68,a,4,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+843,5,68,ver,5,ver,,VERB,ROOT,VERB,True,True,False,False,['ver'],1.0,2543,4
+844,7,68,con,7,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+845,8,68,una,8,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+846,9,68,curiosidad,9,curiosidad,,NOUN,obl,NOUN,False,True,False,False,"['cu', 'rio', 'si', 'dad']",4.0,251,1
+847,10,68,más,10,más,,ADV,advmod,ADV,True,True,False,False,['más'],1.0,20040,4
+848,11,68,humana,11,humano,,ADJ,amod,ADJ,False,True,False,False,"['hu', 'ma', 'na']",3.0,555,4
+849,12,68,que,12,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+850,13,68,periodística,13,periodísticar,,VERB,acl,VERB,False,True,False,False,"['pe', 'rio', 'dís', 'ti', 'ca']",5.0,32,1
+851,0,69,me,0,yo,,PRON,iobj,PRON,True,True,False,False,['me'],1.0,18437,3
+852,1,69,dijo,1,decir,,VERB,ROOT,VERB,True,True,False,False,"['di', 'jo']",2.0,3431,2
+853,2,69,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+854,3,69,iba,3,ir,,AUX,aux,AUX,False,True,False,False,['iba'],1.0,1765,2
+855,4,69,a,4,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+856,5,69,jugar,5,jugar,,VERB,xcomp,VERB,False,True,False,False,"['ju', 'gar']",2.0,384,2
+857,6,69,al,6,al,,ADP,case,ADP,True,True,False,False,['al'],1.0,24980,3
+858,7,69,día,7,día,,NOUN,obl,NOUN,True,True,False,False,['día'],1.0,3951,3
+859,8,69,siguiente,8,siguiente,,ADJ,amod,ADJ,True,True,False,False,"['si', 'guien', 'te']",3.0,732,1
+860,10,69,que,10,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+861,11,69,estaba,11,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'ta', 'ba']",3.0,4484,2
+862,12,69,perfecto,12,perfecto,,ADJ,acl,ADJ,False,True,False,False,"['per', 'fec', 'to']",3.0,239,2
+863,0,70,le,0,él,,PRON,iobj,PRON,True,True,False,False,['le'],1.0,18093,3
+864,1,70,dije,1,decir,,VERB,ROOT,VERB,False,True,False,False,"['di', 'je']",2.0,668,3
+865,2,70,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+866,3,70,no,3,no,,ADV,obj,ADV,True,True,False,False,['no'],1.0,55524,3
+867,5,70,que,5,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+868,6,70,lamentablemente,6,lamentablemente,,ADV,advmod,ADV,False,True,False,False,"['la', 'men', 'ta', 'ble', 'men', 'te']",6.0,37,1
+869,7,70,sólo,7,sólo,,ADV,advmod,ADV,True,True,False,False,"['só', 'lo']",2.0,7174,3
+870,8,70,hablaba,8,hablar,,VERB,advcl,VERB,False,True,False,False,"['ha', 'bla', 'ba']",3.0,478,1
+871,9,70,castellano,9,castellano,,NOUN,obj,NOUN,False,True,False,False,"['cas', 'te', 'llano']",3.0,185,3
+872,0,71,empieza,0,empezar,,VERB,ROOT,VERB,False,True,False,False,"['em', 'pie', 'za']",3.0,374,3
+873,1,71,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+874,2,71,segundo,2,segundo,,ADJ,amod,ADJ,True,True,False,False,"['se', 'gun', 'do']",3.0,1148,5
+875,3,71,tiempo,3,tiempo,,NOUN,nsubj,NOUN,True,True,False,False,"['tiem', 'po']",2.0,4167,3
+876,4,71,y,4,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+877,5,71,el,5,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+878,6,71,loco,6,Loco,LOC,PROPN,nsubj,PROPN,False,True,False,False,"['lo', 'co']",2.0,273,3
+879,7,71,estaba,7,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'ta', 'ba']",3.0,4484,2
+880,8,71,desatado,8,desatado,,ADJ,conj,ADJ,False,True,False,False,"['des', 'ata', 'do']",3.0,17,1
+881,0,72,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+882,1,72,doy,1,dar,,VERB,ROOT,VERB,False,True,False,False,['doy'],1.0,120,2
+883,2,72,vuelta,2,vuelta,,NOUN,obj,NOUN,False,True,False,False,"['vuel', 'ta']",2.0,525,3
+884,3,72,y,3,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+885,4,72,veo,4,ver,,VERB,conj,VERB,False,True,False,False,['veo'],1.0,365,1
+886,5,72,llegar,5,llegar,,VERB,xcomp,VERB,False,True,False,False,"['lle', 'gar']",2.0,1344,1
+887,7,72,por,7,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+888,8,72,detrás,8,detrás,,ADV,fixed,ADV,True,True,False,False,"['de', 'trás']",2.0,174,2
+889,9,72,del,9,del,,ADP,fixed,ADP,True,True,False,False,['del'],1.0,49142,3
+890,10,72,estadio,10,estadio,,NOUN,obl,NOUN,False,True,False,False,"['es', 'ta', 'dio']",3.0,140,1
+891,12,72,una,12,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+892,13,72,ambulancia,13,ambulancia,,NOUN,obj,NOUN,False,True,False,False,"['am', 'bu', 'lan', 'cia']",4.0,37,2
+893,15,72,a,15,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+894,16,72,toda,16,todo,,DET,det,DET,True,True,False,False,"['to', 'da']",2.0,2670,4
+895,17,72,velocidad,17,velocidad,,NOUN,obl,NOUN,False,True,False,False,"['ve', 'lo', 'ci', 'dad']",4.0,440,1
+896,0,73,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+897,1,73,acerco,1,acerco,,ADJ,ROOT,ADJ,False,True,False,False,"['acer', 'co']",2.0,23,1
+898,3,73,entonces,3,entonces,,ADV,advmod,ADV,True,True,False,False,"['en', 'ton', 'ces']",3.0,3053,4
+899,5,73,a,5,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+900,6,73,riesgo,6,riesgo,,NOUN,fixed,NOUN,False,True,False,False,"['ries', 'go']",2.0,548,1
+901,7,73,de,7,de,,ADP,fixed,ADP,True,True,False,False,['de'],1.0,264834,4
+902,8,73,que,8,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+903,9,73,me,9,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+904,10,73,consideraran,10,considerarir,,VERB,advcl,VERB,False,True,False,False,"['con', 'si', 'de', 'ra', 'ran']",5.0,3,1
+905,11,73,un,11,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+906,12,73,entrometido,12,entrometido,,NOUN,obj,NOUN,False,True,False,False,"['en', 'tro', 'me', 'ti', 'do']",5.0,5,3
+907,0,74,según,0,según,PER,ADP,case,ADP,True,True,False,False,"['se', 'gún']",2.0,2789,2
+908,1,74,el,1,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+909,2,74,médico,2,médico,,NOUN,obl,NOUN,False,True,False,False,"['mé', 'di', 'co']",3.0,522,3
+910,4,74,había,4,haber,PER,AUX,ROOT,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+911,5,74,que,5,que,,SCONJ,cc,SCONJ,True,True,False,False,['que'],1.0,153240,5
+912,6,74,encerrarlo,6,encerrar él,,VERB,conj,VERB,False,True,False,False,"['en', 'ce', 'rrar', 'lo']",4.0,3,1
+913,7,74,de,7,de,,ADP,advmod,ADP,True,True,False,False,['de'],1.0,264834,4
+914,8,74,inmediato,8,inmediato,,NOUN,fixed,NOUN,False,True,False,False,"['in', 'me', 'dia', 'to']",4.0,119,1
+915,9,74,porque,9,porque,,SCONJ,mark,SCONJ,True,True,False,False,"['por', 'que']",2.0,7519,3
+916,10,74,era,10,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+917,11,74,muy,11,mucho,,ADV,advmod,ADV,True,True,False,False,['muy'],1.0,7936,3
+918,12,74,peligroso,12,peligroso,,ADJ,advcl,ADJ,False,True,False,False,"['pe', 'li', 'gro', 'so']",4.0,193,1
+919,0,75,daban,0,Daban,,PROPN,ROOT,PROPN,False,True,False,False,"['da', 'ban']",2.0,226,1
+920,1,75,lástima,1,lástima,,PROPN,flat,PROPN,False,True,False,False,"['lás', 'ti', 'ma']",3.0,109,2
+921,3,75,ahí,3,ahí,,ADV,advmod,ADV,True,True,False,False,['ahí'],1.0,1308,2
+922,4,75,encerrados,4,encerrado,,ADJ,advcl,ADJ,False,True,False,False,"['en', 'ce', 'rra', 'dos']",4.0,34,1
+923,5,75,esperando,5,esperar,,VERB,ccomp,VERB,False,True,False,False,"['es', 'pe', 'ran', 'do']",4.0,294,1
+924,6,75,que,6,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+925,7,75,alguien,7,alguien,,PRON,nsubj,PRON,False,True,False,False,"['al', 'guien']",2.0,1235,3
+926,8,75,viniera,8,venir,,VERB,ccomp,VERB,False,True,False,False,"['vi', 'nie', 'ra']",3.0,30,1
+927,9,75,a,9,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+928,10,75,buscarlos,10,buscarlo,,NOUN,obj,NOUN,False,True,False,False,"['bus', 'car', 'los']",3.0,13,1
+929,0,76,nos,0,yo,,PRON,iobj,PRON,True,True,False,False,['nos'],1.0,6511,3
+930,1,76,lo,1,él,,PRON,obj,PRON,True,True,False,False,['lo'],1.0,31492,6
+931,2,76,entregaron,2,entregar,,VERB,ROOT,VERB,False,True,False,False,"['en', 'tre', 'ga', 'ron']",4.0,17,1
+932,3,76,en,3,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+933,4,76,una,4,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+934,5,76,caja,5,caja,,NOUN,obl,NOUN,False,True,False,False,"['ca', 'ja']",2.0,252,2
+935,6,76,de,6,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+936,7,76,cartón,7,cartón,,NOUN,nmod,NOUN,False,True,False,False,"['car', 'tón']",2.0,59,1
+937,8,76,a,8,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+938,9,76,la,9,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+939,10,76,que,10,que,,PRON,obj,PRON,True,True,False,False,['que'],1.0,153240,5
+940,11,76,sólo,11,sólo,,ADV,advmod,ADV,True,True,False,False,"['só', 'lo']",2.0,7174,3
+941,12,76,le,12,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+942,13,76,faltaba,13,faltar,,VERB,acl,VERB,False,True,False,False,"['fal', 'ta', 'ba']",3.0,138,1
+943,14,76,el,14,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+944,15,76,moño,15,moño,,NOUN,nsubj,NOUN,False,True,False,False,"['mo', 'ño']",2.0,46,1
+945,0,77,yo,0,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+946,1,77,no,1,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+947,2,77,hablaba,2,hablar,,VERB,ROOT,VERB,False,True,False,False,"['ha', 'bla', 'ba']",3.0,478,1
+948,3,77,con,3,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+949,4,77,él,4,él,,PRON,obj,PRON,True,True,False,False,['él'],1.0,5809,2
+950,5,77,como,5,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+951,6,77,hacían,6,hacer,,VERB,advcl,VERB,False,True,False,False,"['ha', 'cían']",2.0,295,1
+952,7,77,los,7,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+953,8,77,otros,8,otro,,DET,det,DET,True,True,False,False,['otros'],1.0,3523,4
+954,9,77,chicos,9,chico,,NOUN,obj,NOUN,False,True,False,False,"['chi', 'cos']",2.0,296,3
+955,11,77,o,11,o,,CCONJ,cc,CCONJ,False,True,False,False,['o'],1.0,18470,3
+956,12,77,como,12,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+957,13,77,mi,13,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+958,14,77,papá,14,papá,,NOUN,conj,NOUN,False,True,False,False,"['pa', 'pá']",2.0,256,2
+959,15,77,y,15,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+960,16,77,mi,16,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+961,17,77,mamá,17,mamá,,NOUN,conj,NOUN,False,True,False,False,"['ma', 'má']",2.0,299,2
+962,0,78,los,0,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+963,1,78,gatos,1,gato,,NOUN,nsubj,NOUN,False,True,False,False,"['ga', 'tos']",2.0,112,3
+964,2,78,tienen,2,tener,,VERB,ROOT,VERB,True,True,False,False,"['tie', 'nen']",2.0,2117,2
+965,3,78,un,3,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+966,4,78,lenguaje,4,lenguaje,,NOUN,obj,NOUN,False,True,False,False,"['len', 'gua', 'je']",3.0,461,1
+967,5,78,que,5,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+968,6,78,no,6,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+969,7,78,comprenden,7,comprender,,VERB,acl,VERB,False,True,False,False,"['com', 'pren', 'den']",3.0,28,1
+970,8,78,quienes,8,quien,,PRON,nsubj,PRON,True,True,False,False,"['quie', 'nes']",2.0,1017,2
+971,9,78,no,9,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+972,10,78,aceptan,10,aceptar,,VERB,ccomp,VERB,False,True,False,False,"['acep', 'tan']",2.0,47,1
+973,11,78,el,11,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+974,12,78,misterio,12,misterio,,NOUN,obj,NOUN,False,True,False,False,"['mis', 'te', 'rio']",3.0,205,2
+975,0,79,mis,0,mi,,DET,det,DET,True,True,False,False,['mis'],1.0,2256,3
+976,1,79,amigos,1,amigo,,NOUN,nsubj,NOUN,False,True,False,False,"['ami', 'gos']",2.0,794,4
+977,2,79,del,2,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+978,3,79,colegio,3,colegio,,NOUN,nmod,NOUN,False,True,False,False,"['co', 'le', 'gio']",3.0,318,3
+979,4,79,no,4,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+980,5,79,sabían,5,saber,,VERB,ROOT,VERB,False,True,False,False,"['sa', 'bían']",2.0,140,1
+981,6,79,nada,6,nada,,PRON,obj,PRON,True,True,False,False,"['na', 'da']",2.0,3806,6
+982,7,79,de,7,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+983,8,79,la,8,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+984,9,79,ciudad,9,ciudad,,NOUN,nmod,NOUN,False,True,False,False,"['ciu', 'dad']",2.0,1519,2
+985,10,79,en,10,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+986,11,79,la,11,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+987,12,79,que,12,que,,PRON,obl,PRON,True,True,False,False,['que'],1.0,153240,5
+988,13,79,yo,13,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+989,14,79,había,14,haber,,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+990,15,79,nacido,15,nacer,,VERB,acl,VERB,False,True,False,False,"['na', 'ci', 'do']",3.0,277,4
+991,0,80,por,0,por,,ADP,advmod,ADP,True,True,False,False,['por'],1.0,40060,3
+992,1,80,supuesto,1,supuesto,,NOUN,fixed,NOUN,True,True,False,False,"['su', 'pues', 'to']",3.0,172,2
+993,2,80,que,2,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+994,3,80,me,3,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+995,4,80,encantaba,4,encantar,,VERB,ROOT,VERB,False,True,False,False,"['en', 'can', 'ta', 'ba']",4.0,21,1
+996,5,80,la,5,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+997,6,80,idea,6,idea,,NOUN,nsubj,NOUN,False,True,False,False,['idea'],1.0,1096,5
+998,7,80,de,7,de,,ADP,mark,ADP,True,True,False,False,['de'],1.0,264834,4
+999,8,80,poder,8,poder,,AUX,aux,AUX,True,True,False,False,"['po', 'der']",2.0,2193,3
+1000,9,80,volver,9,volver,,VERB,acl,VERB,False,True,False,False,"['vol', 'ver']",2.0,677,2
+1001,10,80,a,10,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+1002,11,80,verla,11,ver él,,VERB,xcomp,VERB,False,True,False,False,"['ver', 'la']",2.0,183,2
+1003,12,80,y,12,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1004,13,80,jugar,13,jugar,,VERB,conj,VERB,False,True,False,False,"['ju', 'gar']",2.0,384,2
+1005,14,80,con,14,con,,ADP,case,ADP,True,True,False,False,['con'],1.0,47188,3
+1006,15,80,ella,15,él,,PRON,obl,PRON,True,True,False,False,['ella'],1.0,5496,3
+1007,0,81,pero,0,pero,,CCONJ,advmod,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+1008,1,81,era,1,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+1009,2,81,el,2,el,,DET,ROOT,DET,True,True,False,False,['el'],1.0,139638,3
+1010,3,81,mío,3,mío,,DET,punct,DET,True,True,False,False,['mío'],1.0,412,2
+1011,4,81,y,4,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1012,5,81,ahora,5,ahora,,ADV,advmod,ADV,True,True,False,False,"['aho', 'ra']",2.0,4949,3
+1013,6,81,podíamos,6,poder,,AUX,aux,AUX,False,True,False,False,"['po', 'día', 'mos']",3.0,83,1
+1014,7,81,volver,7,volver,,VERB,conj,VERB,False,True,False,False,"['vol', 'ver']",2.0,677,2
+1015,8,81,y,8,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1016,9,81,mi,9,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+1017,10,81,curiosidad,10,curiosidad,,NOUN,nsubj,NOUN,False,True,False,False,"['cu', 'rio', 'si', 'dad']",4.0,251,1
+1018,11,81,se,11,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+1019,12,81,había,12,haber,,AUX,aux,AUX,True,True,False,False,"['ha', 'bía']",2.0,10956,2
+1020,13,81,despertado,13,despertar,,VERB,conj,VERB,False,True,False,False,"['des', 'per', 'ta', 'do']",4.0,51,1
+1021,0,82,puedo,0,poder,,VERB,ROOT,VERB,True,True,False,False,"['pue', 'do']",2.0,723,1
+1022,1,82,mostrarte,1,mostrartir,,VERB,flat,VERB,False,True,False,False,"['mos', 'trar', 'te']",3.0,,
+1023,2,82,el,2,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1024,3,82,mundo,3,mundo,,NOUN,nsubj,NOUN,False,True,False,False,"['mun', 'do']",2.0,3783,2
+1025,4,82,entero,4,entero,,ADJ,amod,ADJ,False,True,False,False,"['en', 'te', 'ro']",3.0,229,3
+1026,5,82,si,5,si,,SCONJ,mark,SCONJ,True,True,False,False,['si'],1.0,10060,3
+1027,6,82,te,6,tú,,PRON,iobj,PRON,True,True,False,False,['te'],1.0,5026,3
+1028,7,82,animas,7,animar,,VERB,advcl,VERB,False,True,False,False,"['ani', 'mas']",2.0,3,2
+1029,8,82,a,8,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+1030,9,82,subir,9,subir,,VERB,xcomp,VERB,False,True,False,False,"['su', 'bir']",2.0,207,1
+1031,10,82,conmigo,10,yo,,PRON,nsubj,PRON,True,True,False,False,"['con', 'mi', 'go']",3.0,417,2
+1032,11,82,alto,11,alto,,ADJ,amod,ADJ,False,True,False,False,"['al', 'to']",2.0,916,3
+1033,13,82,muy,13,mucho,,ADV,advmod,ADV,True,True,False,False,['muy'],1.0,7936,3
+1034,14,82,alto,14,alto,,ADJ,amod,ADJ,False,True,False,False,"['al', 'to']",2.0,916,3
+1035,0,83,eran,0,ser,,AUX,cop,AUX,True,True,False,False,['eran'],1.0,2219,4
+1036,1,83,perros,1,perro,,NOUN,ROOT,NOUN,False,True,False,False,"['pe', 'rros']",2.0,208,3
+1037,2,83,amaestrados,2,amaestrado,,ADJ,amod,ADJ,False,True,False,False,"['ama', 'es', 'tra', 'dos']",4.0,2,1
+1038,4,83,como,4,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+1039,5,83,esos,5,ese,,PRON,advcl,PRON,True,True,False,False,['esos'],1.0,1594,3
+1040,6,83,que,6,que,,PRON,obj,PRON,True,True,False,False,['que'],1.0,153240,5
+1041,7,83,tiene,7,tener,,VERB,acl,VERB,True,True,False,False,"['tie', 'ne']",2.0,4715,2
+1042,8,83,la,8,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1043,9,83,policía,9,policía,,NOUN,nsubj,NOUN,False,True,False,False,"['po', 'li', 'cía']",3.0,675,3
+1044,0,84,cuando,0,cuando,,SCONJ,mark,SCONJ,True,True,False,False,"['cuan', 'do']",2.0,10076,5
+1045,1,84,saltó,1,saltar,,VERB,advcl,VERB,False,True,False,False,"['sal', 'tó']",2.0,64,1
+1046,2,84,tenía,2,tener,,VERB,ROOT,VERB,True,True,False,False,"['te', 'nía']",2.0,3138,3
+1047,3,84,la,3,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1048,4,84,boca,4,boca,,NOUN,obj,NOUN,False,True,False,False,"['bo', 'ca']",2.0,868,2
+1049,5,84,muy,5,mucho,,ADV,advmod,ADV,True,True,False,False,['muy'],1.0,7936,3
+1050,6,84,abierta,6,abierto,,ADJ,amod,ADJ,False,True,False,False,"['abier', 'ta']",2.0,307,2
+1051,7,84,y,7,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1052,8,84,le,8,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+1053,9,84,corría,9,correr,,VERB,conj,VERB,False,True,False,False,"['co', 'rría']",2.0,132,1
+1054,10,84,la,10,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1055,11,84,baba,11,bar,,VERB,obj,VERB,False,True,False,False,"['ba', 'ba']",2.0,24,2
+1056,12,84,entre,12,entre,,ADP,case,ADP,True,True,False,False,"['en', 'tre']",2.0,8178,5
+1057,13,84,los,13,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1058,14,84,colmillos,14,colmillo,,NOUN,obl,NOUN,False,True,False,False,"['col', 'mi', 'llos']",3.0,21,1
+1059,0,85,hacía,0,hacer,MISC,VERB,ROOT,VERB,False,True,False,False,"['ha', 'cía']",2.0,1319,2
+1060,1,85,frío,1,frío,MISC,NOUN,obj,NOUN,False,True,False,False,['frío'],1.0,557,5
+1061,2,85,y,2,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1062,3,85,nevaba,3,nevar,,VERB,conj,VERB,False,True,False,False,"['ne', 'va', 'ba']",3.0,5,1
+1063,5,85,lo,5,él,,PRON,det,PRON,True,True,False,False,['lo'],1.0,31492,6
+1064,6,85,que,6,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+1065,7,85,me,7,yo,,PRON,iobj,PRON,True,True,False,False,['me'],1.0,18437,3
+1066,8,85,hizo,8,hacer,,VERB,ccomp,VERB,True,True,False,False,"['hi', 'zo']",2.0,1627,1
+1067,9,85,temer,9,temer,,VERB,xcomp,VERB,False,True,False,False,"['te', 'mer']",2.0,56,1
+1068,10,85,que,10,que,,SCONJ,mark,SCONJ,True,True,False,False,['que'],1.0,153240,5
+1069,11,85,no,11,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+1070,12,85,pudiéramos,12,pudiérar,,VERB,ccomp,VERB,False,True,False,False,"['pu', 'dié', 'ra', 'mos']",4.0,22,1
+1071,13,85,salir,13,salir,,VERB,xcomp,VERB,False,True,False,False,['salir'],1.0,953,2
+1072,14,85,de,14,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1073,15,85,casa,15,casa,,NOUN,obl,NOUN,False,True,False,False,"['ca', 'sa']",2.0,3528,5
+1074,0,86,en,0,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1075,1,86,parís,1,París,LOC,PROPN,obl,PROPN,False,True,False,False,"['pa', 'rís']",2.0,366,2
+1076,3,86,el,3,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1077,4,86,invierno,4,invierno,,NOUN,nsubj,NOUN,False,True,False,False,"['in', 'vierno']",2.0,282,1
+1078,5,86,es,5,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+1079,6,86,riguroso,6,riguroso,,ADJ,ROOT,ADJ,False,True,False,False,"['ri', 'gu', 'ro', 'so']",4.0,51,1
+1080,7,86,y,7,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1081,8,86,a,8,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1082,9,86,las,9,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1083,10,86,cuatro,10,cuatro,,NUM,conj,NUM,True,True,False,False,"['cua', 'tro']",2.0,1704,3
+1084,11,86,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1085,12,86,la,12,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1086,13,86,tarde,13,tarde,,NOUN,nmod,NOUN,True,True,False,False,"['tar', 'de']",2.0,1421,6
+1087,14,86,ya,14,ya,,ADV,advmod,ADV,True,True,False,False,['ya'],1.0,9906,3
+1088,15,86,está,15,estar,,AUX,cop,AUX,True,True,False,False,"['es', 'tá']",2.0,6105,4
+1089,16,86,oscuro,16,oscuro,,ADJ,advcl,ADJ,False,True,False,False,"['os', 'cu', 'ro']",3.0,277,1
+1090,0,87,para,0,para,,ADP,case,ADP,True,True,False,False,"['pa', 'ra']",2.0,27656,8
+1091,1,87,mí,1,yo,PER,PRON,obl,PRON,True,True,False,False,['mí'],1.0,2065,1
+1092,2,87,era,2,ser,,AUX,cop,AUX,True,True,False,False,['era'],1.0,11342,6
+1093,3,87,un,3,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+1094,4,87,mundo,4,mundo,,NOUN,ROOT,NOUN,False,True,False,False,"['mun', 'do']",2.0,3783,2
+1095,5,87,fascinante,5,fascinante,,ADJ,amod,ADJ,False,True,False,False,"['fas', 'ci', 'nan', 'te']",4.0,55,1
+1096,6,87,y,6,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1097,7,87,desconocido,7,desconocido,,ADJ,conj,ADJ,False,True,False,False,"['des', 'co', 'no', 'ci', 'do']",5.0,204,4
+1098,9,87,el,9,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1099,10,87,reino,10,reino,,NOUN,nsubj,NOUN,False,True,False,False,['reino'],1.0,182,3
+1100,11,87,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1101,12,87,las,12,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1102,13,87,alturas,13,altura,,NOUN,nmod,NOUN,False,True,False,False,"['al', 'tu', 'ras']",3.0,188,1
+1103,0,88,miré,0,mire ,,VERB,ROOT,VERB,False,True,False,False,"['mi', 'ré']",2.0,77,1
+1104,1,88,los,1,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1105,2,88,contornos,2,contorno,,NOUN,nsubj,NOUN,False,True,False,False,"['con', 'tor', 'nos']",3.0,45,1
+1106,3,88,de,3,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1107,4,88,los,4,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1108,5,88,edificios,5,edificio,,NOUN,nmod,NOUN,False,True,False,False,"['edi', 'fi', 'cios']",3.0,147,1
+1109,6,88,y,6,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1110,7,88,las,7,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1111,8,88,pesadas,8,pesado,,ADJ,amod,ADJ,False,True,False,False,"['pe', 'sa', 'das']",3.0,49,3
+1112,9,88,sombras,9,sombra,,NOUN,conj,NOUN,False,True,False,False,"['som', 'bras']",2.0,219,3
+1113,10,88,de,10,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1114,11,88,la,11,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1115,12,88,tormenta,12,tormenta,,NOUN,nmod,NOUN,False,True,False,False,"['tor', 'men', 'ta']",3.0,83,3
+1116,0,89,se,0,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+1117,1,89,hizo,1,hacer,,VERB,ROOT,VERB,True,True,False,False,"['hi', 'zo']",2.0,1627,1
+1118,2,89,primero,2,primero,,ADV,advmod,ADV,True,True,False,False,"['pri', 'me', 'ro']",3.0,1278,2
+1119,3,89,una,3,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+1120,4,89,inmensa,4,inmenso,,ADJ,amod,ADJ,False,True,False,False,"['in', 'men', 'sa']",3.0,191,1
+1121,5,89,luz,5,luz,,NOUN,nsubj,NOUN,False,True,False,False,['luz'],1.0,1585,3
+1122,6,89,blanca,6,blanco,,ADJ,amod,ADJ,False,True,False,False,"['blan', 'ca']",2.0,441,3
+1123,7,89,que,7,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+1124,8,89,me,8,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+1125,9,89,encegueció,9,encegueceír,,VERB,acl,VERB,False,True,False,False,"['en', 'ce', 'gue', 'ció']",4.0,,
+1126,10,89,por,10,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+1127,11,89,un,11,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+1128,12,89,instante,12,instante,,NOUN,obl,NOUN,False,True,False,False,"['ins', 'tan', 'te']",3.0,472,1
+1129,0,90,andrée,0,Andrée,LOC,PROPN,obl,PROPN,False,True,False,False,"['an', 'drée']",2.0,1,1
+1130,2,90,yo,2,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+1131,3,90,no,3,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+1132,4,90,quería,4,querer,,VERB,ROOT,VERB,False,True,False,False,"['que', 'ría']",2.0,806,1
+1133,5,90,venirme,5,venir yo,,VERB,xcomp,VERB,False,True,False,False,"['ve', 'nir', 'me']",3.0,2,1
+1134,6,90,a,6,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+1135,7,90,vivir,7,vivir,,VERB,xcomp,VERB,False,True,False,False,"['vi', 'vir']",2.0,808,3
+1136,8,90,a,8,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1137,9,90,su,9,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+1138,10,90,departamento,10,departamento,,NOUN,obl,NOUN,False,True,False,False,"['de', 'par', 'ta', 'men', 'to']",5.0,195,2
+1139,11,90,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1140,12,90,la,12,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1141,13,90,calle,13,calle,,NOUN,nmod,NOUN,False,True,False,False,"['ca', 'lle']",2.0,1345,5
+1142,14,90,suipacha,14,Suipacha,MISC,PROPN,appos,PROPN,False,True,False,False,"['sui', 'pa', 'cha']",3.0,,
+1143,0,91,usted,0,usted,MISC,PRON,nsubj,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+1144,1,91,sabe,1,saber,,VERB,ROOT,VERB,True,True,False,False,"['sa', 'be']",2.0,1591,3
+1145,2,91,por,2,por,,ADP,case,ADP,True,True,False,False,['por'],1.0,40060,3
+1146,3,91,qué,3,qué,,PRON,obl,PRON,True,True,False,False,['qué'],1.0,6172,4
+1147,4,91,vine,4,venir,,VERB,ccomp,VERB,False,True,False,False,"['vi', 'ne']",2.0,34,2
+1148,5,91,a,5,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1149,6,91,su,6,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+1150,7,91,casa,7,casa,,NOUN,obl,NOUN,False,True,False,False,"['ca', 'sa']",2.0,3528,5
+1151,9,91,a,9,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1152,10,91,su,10,su,,DET,det,DET,True,True,False,False,['su'],1.0,39544,3
+1153,11,91,quieto,11,quieto,,ADJ,amod,ADJ,False,True,False,False,"['quie', 'to']",2.0,81,2
+1154,12,91,salón,12,salón,,NOUN,obl,NOUN,False,True,False,False,['salón'],1.0,257,2
+1155,13,91,solicitado,13,solicitado,,ADJ,flat,ADJ,False,True,False,False,"['so', 'li', 'ci', 'ta', 'do']",5.0,56,1
+1156,14,91,de,14,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1157,15,91,mediodía,15,mediodía,,NOUN,obj,NOUN,False,True,False,False,"['me', 'dio', 'día']",3.0,140,2
+1158,0,92,todo,0,todo,,PRON,nsubj,PRON,True,True,False,False,"['to', 'do']",2.0,7722,5
+1159,1,92,parece,1,parecer,,VERB,ROOT,VERB,True,True,False,False,"['pa', 're', 'ce']",3.0,2427,5
+1160,2,92,tan,2,tanto,,ADV,advmod,ADV,True,True,False,False,['tan'],1.0,6068,4
+1161,3,92,natural,3,natural,,ADJ,xcomp,ADJ,False,True,False,False,"['na', 'tu', 'ral']",3.0,681,3
+1162,5,92,como,5,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+1163,6,92,siempre,6,siempre,,ADV,mark,ADV,True,True,False,False,"['siem', 'pre']",2.0,4841,3
+1164,7,92,que,7,que,,SCONJ,fixed,SCONJ,True,True,False,False,['que'],1.0,153240,5
+1165,8,92,no,8,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+1166,9,92,se,9,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+1167,10,92,sabe,10,saber,,VERB,advcl,VERB,True,True,False,False,"['sa', 'be']",2.0,1591,3
+1168,11,92,la,11,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1169,12,92,verdad,12,verdad,,NOUN,nsubj,NOUN,True,True,False,False,"['ver', 'dad']",2.0,1743,2
+1170,0,93,me,0,yo,,PRON,iobj,PRON,True,True,False,False,['me'],1.0,18437,3
+1171,1,93,mudé,1,mudé,,VERB,ROOT,VERB,False,True,False,False,"['mu', 'dé']",2.0,2,1
+1172,2,93,el,2,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1173,3,93,jueves,3,jueves,,NOUN,obl,NOUN,False,True,False,False,"['jue', 'ves']",2.0,185,1
+1174,4,93,pasado,4,pasado,,NOUN,amod,NOUN,True,True,False,False,"['pa', 'sa', 'do']",3.0,1805,5
+1175,6,93,a,6,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1176,7,93,las,7,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1177,8,93,cinco,8,cinco,,NUM,obl,NUM,True,True,False,False,"['cin', 'co']",2.0,1321,5
+1178,9,93,de,9,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1179,10,93,la,10,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1180,11,93,tarde,11,tarde,,NOUN,nmod,NOUN,True,True,False,False,"['tar', 'de']",2.0,1421,6
+1181,13,93,entre,13,entre,,ADP,case,ADP,True,True,False,False,"['en', 'tre']",2.0,8178,5
+1182,14,93,niebla,14,niebla,,NOUN,nmod,NOUN,False,True,False,False,"['nie', 'bla']",2.0,113,2
+1183,15,93,y,15,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1184,16,93,hastío,16,hastío,,NOUN,conj,NOUN,False,True,False,False,"['has', 'tío']",2.0,28,2
+1185,0,94,pero,0,pero,,CCONJ,advmod,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+1186,1,94,hice,1,hacer,,VERB,advcl,VERB,False,True,False,False,"['hi', 'ce']",2.0,253,1
+1187,2,94,las,2,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1188,3,94,maletas,3,maleta,,NOUN,obj,NOUN,False,True,False,False,"['ma', 'le', 'tas']",3.0,66,2
+1189,5,94,avisé,5,avisé,,VERB,ROOT,VERB,False,True,False,False,"['avi', 'sé']",2.0,1,1
+1190,6,94,a,6,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1191,7,94,la,7,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1192,8,94,mucama,8,mucama,,NOUN,obl,NOUN,False,True,False,False,"['mu', 'ca', 'ma']",3.0,9,1
+1193,9,94,que,9,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+1194,10,94,vendría,10,venir,,VERB,acl,VERB,False,True,False,False,"['ven', 'dría']",2.0,79,1
+1195,11,94,a,11,a,,ADP,mark,ADP,False,True,False,False,['a'],1.0,91360,3
+1196,12,94,instalarme,12,instalar yo,,VERB,xcomp,VERB,False,True,False,False,"['ins', 'ta', 'lar', 'me']",4.0,3,1
+1197,14,94,y,14,y,,CCONJ,cc,CCONJ,False,True,False,False,['y'],1.0,140472,3
+1198,15,94,subí,15,subí,,VERB,conj,VERB,False,True,False,False,"['su', 'bí']",2.0,27,1
+1199,16,94,en,16,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1200,17,94,el,17,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1201,18,94,ascensor,18,ascensor,,NOUN,obl,NOUN,False,True,False,False,"['as', 'cen', 'sor']",3.0,115,1
+1202,0,95,todo,0,todo,,PRON,nsubj,PRON,True,True,False,False,"['to', 'do']",2.0,7722,5
+1203,1,95,es,1,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+1204,2,95,veloz,2,veloz,,ADJ,ccomp,ADJ,False,True,False,False,"['ve', 'loz']",2.0,39,1
+1205,3,95,e,3,e,,CCONJ,cc,CCONJ,False,True,False,False,['e'],1.0,3300,3
+1206,4,95,higiénico,4,higiénico,,ADJ,conj,ADJ,False,True,False,False,"['hi', 'gié', 'ni', 'co']",4.0,9,1
+1207,6,95,transcurre,6,transcurrir,,VERB,ROOT,VERB,False,True,False,False,"['trans', 'cu', 'rre']",3.0,50,2
+1208,7,95,en,7,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1209,8,95,un,8,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+1210,9,95,brevísimo,9,brevísimo,,ADJ,amod,ADJ,False,True,False,False,"['bre', 'ví', 'si', 'mo']",4.0,10,2
+1211,10,95,instante,10,instante,,NOUN,obl,NOUN,False,True,False,False,"['ins', 'tan', 'te']",3.0,472,1
+1212,0,96,mire,0,Mire,MISC,PROPN,nsubj,PROPN,False,True,False,False,"['mi', 're']",2.0,154,2
+1213,1,96,usted,1,usted,,PRON,flat,PRON,True,True,False,False,"['us', 'ted']",2.0,2374,2
+1214,3,96,yo,3,yo,,PRON,nsubj,PRON,True,True,False,False,['yo'],1.0,7920,3
+1215,4,96,tenía,4,tener,,VERB,ROOT,VERB,True,True,False,False,"['te', 'nía']",2.0,3138,3
+1216,5,96,perfectamente,5,perfectamente,,ADV,advmod,ADV,False,True,False,False,"['per', 'fec', 'ta', 'men', 'te']",5.0,392,1
+1217,6,96,resuelto,6,resolver,,VERB,obj,VERB,False,True,False,False,"['re', 'suel', 'to']",3.0,103,3
+1218,7,96,el,7,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1219,8,96,problema,8,problema,,NOUN,obj,NOUN,False,True,False,False,"['pro', 'ble', 'ma']",3.0,1177,3
+1220,9,96,de,9,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1221,10,96,los,10,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1222,11,96,conejitos,11,conejito,,NOUN,nmod,NOUN,False,True,False,False,"['co', 'ne', 'ji', 'tos']",4.0,,
+1223,0,97,al,0,al,,ADP,mark,ADP,True,True,False,False,['al'],1.0,24980,3
+1224,1,97,cruzar,1,cruzar,,VERB,advcl,VERB,False,True,False,False,"['cru', 'zar']",2.0,101,2
+1225,2,97,el,2,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1226,3,97,tercer,3,tercer,,ADJ,amod,ADJ,False,True,False,False,"['ter', 'cer']",2.0,267,1
+1227,4,97,piso,4,piso,,NOUN,obj,NOUN,False,True,False,False,"['pi', 'so']",2.0,395,3
+1228,5,97,el,5,el,,DET,det,DET,True,True,False,False,['el'],1.0,139638,3
+1229,6,97,conejito,6,conejito,,NOUN,nsubj,NOUN,False,True,False,False,"['co', 'ne', 'ji', 'to']",4.0,,
+1230,7,97,se,7,él,,PRON,obj,PRON,True,True,False,False,['se'],1.0,68473,3
+1231,8,97,movía,8,mover,,VERB,ROOT,VERB,False,True,False,False,"['mo', 'vía']",2.0,124,1
+1232,9,97,en,9,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1233,10,97,mi,10,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+1234,11,97,mano,11,mano,,NOUN,obl,NOUN,False,True,False,False,"['ma', 'no']",2.0,2168,3
+1235,12,97,abierta,12,abierto,,ADJ,amod,ADJ,False,True,False,False,"['abier', 'ta']",2.0,307,2
+1236,0,98,me,0,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+1237,1,98,llevo,1,llevar,,VERB,ROOT,VERB,False,True,False,False,"['lle', 'vo']",2.0,144,2
+1238,2,98,las,2,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1239,3,98,llaves,3,llave,,NOUN,nsubj,NOUN,False,True,False,False,"['lla', 'ves']",2.0,82,2
+1240,4,98,del,4,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+1241,5,98,dormitorio,5,dormitorio,,NOUN,nmod,NOUN,False,True,False,False,"['dor', 'mi', 'to', 'rio']",4.0,174,1
+1242,6,98,al,6,al,,ADP,case,ADP,True,True,False,False,['al'],1.0,24980,3
+1243,7,98,partir,7,partir,,NOUN,fixed,NOUN,True,True,False,False,"['par', 'tir']",2.0,79,1
+1244,8,98,a,8,a,,ADP,fixed,ADP,False,True,False,False,['a'],1.0,91360,3
+1245,9,98,mi,9,mi,,DET,det,DET,True,True,False,False,['mi'],1.0,9450,4
+1246,10,98,empleo,10,empleo,,NOUN,obl,NOUN,True,True,False,False,"['em', 'pleo']",2.0,260,3
+1247,0,99,son,0,ser,,AUX,cop,AUX,True,True,False,False,['son'],1.0,7473,5
+1248,1,99,las,1,el,,DET,det,DET,True,True,False,False,['las'],1.0,53845,5
+1249,2,99,tres,2,tres,,NUM,ROOT,NUM,True,True,False,False,['tres'],1.0,3251,4
+1250,3,99,de,3,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1251,4,99,la,4,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1252,5,99,tarde,5,tarde,,NOUN,nmod,NOUN,True,True,False,False,"['tar', 'de']",2.0,1421,6
+1253,7,99,pero,7,pero,,CCONJ,cc,CCONJ,True,True,False,False,"['pe', 'ro']",2.0,19480,5
+1254,8,99,le,8,él,,PRON,obj,PRON,True,True,False,False,['le'],1.0,18093,3
+1255,9,99,escribo,9,escribir,,VERB,conj,VERB,False,True,False,False,"['es', 'cri', 'bo']",3.0,91,1
+1256,10,99,en,10,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1257,11,99,la,11,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1258,12,99,noche,12,noche,,NOUN,obl,NOUN,False,True,False,False,"['no', 'che']",2.0,2273,3
+1259,13,99,de,13,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1260,14,99,ellos,14,él,,PRON,nmod,PRON,True,True,False,False,['ellos'],1.0,3177,3
+1261,0,100,interrumpí,0,interrumpí,,VERB,ROOT,VERB,False,True,False,False,"['in', 'te', 'rrum', 'pí']",4.0,8,1
+1262,1,100,esta,1,este,,DET,det,DET,True,True,False,False,"['es', 'ta']",2.0,6684,3
+1263,2,100,carta,2,carta,,NOUN,nsubj,NOUN,False,True,False,False,"['car', 'ta']",2.0,472,2
+1264,3,100,porque,3,porque,,SCONJ,mark,SCONJ,True,True,False,False,"['por', 'que']",2.0,7519,3
+1265,4,100,debía,4,deber,,AUX,aux,AUX,False,True,False,False,"['de', 'bía']",2.0,674,1
+1266,5,100,asistir,5,asistir,,VERB,advcl,VERB,False,True,False,False,"['asis', 'tir']",2.0,117,1
+1267,6,100,a,6,a,,ADP,case,ADP,False,True,False,False,['a'],1.0,91360,3
+1268,7,100,una,7,uno,,DET,det,DET,True,True,False,False,['una'],1.0,47992,9
+1269,8,100,tarea,8,tarea,,NOUN,obl,NOUN,False,True,False,False,"['ta', 'rea']",2.0,376,1
+1270,9,100,de,9,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1271,10,100,comisiones,10,comisión,,NOUN,nmod,NOUN,False,True,False,False,"['co', 'mi', 'sio', 'nes']",4.0,82,3
+1272,0,101,he,0,haber,,AUX,aux,AUX,True,True,False,False,['he'],1.0,2566,3
+1273,1,101,querido,1,querer,,VERB,ROOT,VERB,False,True,False,False,"['que', 'ri', 'do']",3.0,389,5
+1274,2,101,en,2,en,,ADP,advmod,ADP,True,True,False,False,['en'],1.0,116349,3
+1275,3,101,vano,3,vano,,NOUN,fixed,NOUN,False,True,False,False,['vano'],1.0,28,1
+1276,4,101,sacar,4,sacar,,VERB,xcomp,VERB,False,True,False,False,"['sa', 'car']",2.0,325,1
+1277,5,101,los,5,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1278,6,101,pelos,6,pelo,,NOUN,obj,NOUN,False,True,False,False,"['pe', 'los']",2.0,100,2
+1279,7,101,que,7,que,,PRON,nsubj,PRON,True,True,False,False,['que'],1.0,153240,5
+1280,8,101,estropean,8,estropear,,VERB,acl,VERB,False,True,False,False,"['es', 'tro', 'pean']",3.0,1,1
+1281,9,101,la,9,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1282,10,101,alfombra,10,alfombra,,NOUN,obj,NOUN,False,True,False,False,"['al', 'fom', 'bra']",3.0,91,4
+1283,0,102,es,0,ser,,AUX,cop,AUX,True,True,False,False,['es'],1.0,33839,3
+1284,1,102,casi,1,casi,,ADV,advmod,ADV,True,True,False,False,"['ca', 'si']",2.0,3355,3
+1285,2,102,extraño,2,extraño,MISC,ADJ,ROOT,ADJ,False,True,False,False,"['ex', 'tra', 'ño']",3.0,360,4
+1286,3,102,que,3,que,,PRON,mark,PRON,True,True,False,False,['que'],1.0,153240,5
+1287,4,102,no,4,no,,ADV,advmod,ADV,True,True,False,False,['no'],1.0,55524,3
+1288,5,102,me,5,yo,,PRON,obj,PRON,True,True,False,False,['me'],1.0,18437,3
+1289,6,102,importe,6,importe,,VERB,csubj,VERB,False,True,False,False,"['im', 'por', 'te']",3.0,40,3
+1290,7,102,verlos,7,ver él,,VERB,xcomp,VERB,False,True,False,False,"['ver', 'los']",2.0,52,2
+1291,8,102,brincar,8,brincar,,VERB,xcomp,VERB,False,True,False,False,"['brin', 'car']",2.0,9,1
+1292,9,102,en,9,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1293,10,102,busca,10,busca,,NOUN,obl,NOUN,False,True,False,False,"['bus', 'ca']",2.0,468,3
+1294,11,102,de,11,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1295,12,102,juguetes,12,juguete,,NOUN,nmod,NOUN,False,True,False,False,"['ju', 'gue', 'tes']",3.0,40,2
+1296,0,103,en,0,en,,ADP,case,ADP,True,True,False,False,['en'],1.0,116349,3
+1297,1,103,cuanto,1,cuanto,,NOUN,fixed,NOUN,True,True,False,False,"['cuan', 'to']",2.0,903,4
+1298,2,103,a,2,a,,ADP,fixed,ADP,False,True,False,False,['a'],1.0,91360,3
+1299,3,103,mí,3,yo,PER,PRON,obl,PRON,True,True,False,False,['mí'],1.0,2065,1
+1300,5,103,del,5,del,,ADP,case,ADP,True,True,False,False,['del'],1.0,49142,3
+1301,6,103,diez,6,diez,,NUM,obl,NUM,False,True,False,False,['diez'],1.0,888,3
+1302,7,103,al,7,al,,ADP,case,ADP,True,True,False,False,['al'],1.0,24980,3
+1303,8,103,once,8,once,,NUM,nmod,NUM,False,True,False,False,"['on', 'ce']",2.0,227,3
+1304,9,103,hay,9,haber,,AUX,ROOT,AUX,True,True,False,False,['hay'],1.0,6072,3
+1305,10,103,como,10,como,,SCONJ,mark,SCONJ,True,True,False,False,"['co', 'mo']",2.0,24440,5
+1306,11,103,un,11,uno,,DET,det,DET,True,True,False,False,['un'],1.0,62236,4
+1307,12,103,hueco,12,hueco,,NOUN,obj,NOUN,False,True,False,False,"['hue', 'co']",2.0,134,2
+1308,13,103,insuperable,13,insuperable,,ADJ,amod,ADJ,False,True,False,False,"['in', 'su', 'pe', 'ra', 'ble']",5.0,19,1
+1309,0,104,está,0,estar,PER,VERB,ROOT,VERB,True,True,False,False,"['es', 'tá']",2.0,6105,4
+1310,1,104,este,1,este,,DET,det,DET,True,True,False,False,"['es', 'te']",2.0,7736,5
+1311,2,104,balcón,2,balcón,,NOUN,nsubj,NOUN,False,True,False,False,"['bal', 'cón']",2.0,149,1
+1312,3,104,sobre,3,sobre,,ADP,case,ADP,True,True,False,False,"['so', 'bre']",2.0,8172,6
+1313,4,104,suipacha,4,Suipacha,PER,PROPN,nmod,PROPN,False,True,False,False,"['sui', 'pa', 'cha']",3.0,,
+1314,5,104,lleno,5,lleno,,ADJ,amod,ADJ,False,True,False,False,['lleno'],1.0,304,4
+1315,6,104,de,6,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1316,7,104,alba,7,alba,,NOUN,nmod,NOUN,False,True,False,False,"['al', 'ba']",2.0,98,3
+1317,9,104,los,9,el,,DET,det,DET,True,True,False,False,['los'],1.0,83522,6
+1318,10,104,primeros,10,primero,,ADJ,amod,ADJ,True,True,False,False,"['pri', 'me', 'ros']",3.0,902,2
+1319,11,104,sonidos,11,sonido,,NOUN,appos,NOUN,False,True,False,False,"['so', 'ni', 'dos']",3.0,100,1
+1320,12,104,de,12,de,,ADP,case,ADP,True,True,False,False,['de'],1.0,264834,4
+1321,13,104,la,13,el,,DET,det,DET,True,True,False,False,['la'],1.0,192562,6
+1322,14,104,ciudad,14,ciudad,,NOUN,nmod,NOUN,False,True,False,False,"['ciu', 'dad']",2.0,1519,2
