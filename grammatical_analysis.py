@@ -87,11 +87,7 @@ usos = pd.read_csv(path_usos,encoding='UTF-8',header=None, names=columnas_usos)
 columnas_acum = ['token','frec','ncategorias']
 acum = pd.read_csv(path_acum, encoding='UTF-8',header=None, names=columnas_acum)
 
-# df_concat = pd.concat([grammatical_analysis, acum]).reset_index().drop_duplicates(['token'])
-# df_concat.set_index('token', inplace=True)
-# # df_concat[df_concat.index.isin(df.index)]
-# print(acum[90000:90050])
 
-merged = pd.merge(grammatical_analysis, acum, on='token')
-print(merged)
-print(grammatical_analysis)
+lexical_analysis = pd.merge(grammatical_analysis, acum, on='token', how='left')
+lexical_analysis.to_csv(path_or_buf='Texts_Data/lexical_analysis.csv')
+

@@ -208,7 +208,7 @@ respuestas['surprisal'] = -np.log(respuestas['pred']) #surprisal measures the re
 
 
 pred['entropy'] = respuestas.groupby(['PalOrac'])['entropy'].sum()*-1 
-print(pred)
+
 
 # """#Data Stories"""
 
@@ -479,3 +479,10 @@ print(pred)
 
 
 
+logLexical = 'Texts_Data/lexical_analysis.csv'
+lexical_analysis = pd.read_csv(logLexical, encoding='UTF-8')
+lexical_analysis.rename(columns={'token':'palabra'}, inplace=True)
+print(lexical_analysis)
+print(pred)  #ojo que pred no tiene tildes! fijate que onda en loadLogs
+combi_analysis = pd.merge(pred, lexical_analysis, on='palabra')
+# print(combi_analysis)
