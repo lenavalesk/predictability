@@ -87,7 +87,7 @@ diccionario = {'original': splittedJoin, 'palOrac': palOrac, 'oracID':oracIDJoin
 
 df1 = pd.DataFrame(diccionario)
 df1 = df1.set_index('palOrac')
-df1['original']  = [unidecode.unidecode(x.lower().strip()) for x in df1.original]
+df1['original']  = [x.lower().strip() for x in df1.original]
 
 
 
@@ -136,8 +136,8 @@ log.original   = [re.sub(simbolosElim, '', x) for x in log['original']]
 log.completada = [re.sub(simbolosElim, '', str(x) + ' ') for x in log['completada']]
 
 # Iguales va a tener un booleano de si la palabra completada es igual a la original
-completados = [unidecode.unidecode(x.lower().strip()) for x in log.completada]
-originales  = [unidecode.unidecode(x.lower().strip()) for x in log.original]
+completados = [x.lower().strip() for x in log.completada]
+originales  = [x.lower().strip() for x in log.original]
 log['iguales'] = [completados[i] == originales[i] for i,n in enumerate(completados)] 
 
 
@@ -191,7 +191,7 @@ simbolosElim = '[?!¿¡ç,.= + _ -"]'
 data = log[['PalOrac','completada','original']].copy()
 
 
-data['correccion'] = [unidecode.unidecode(x.lower().strip()) for x in data['completada']] #Por ahora solo saque tildes y elimine mayusculas
+data['correccion'] = [x.lower().strip() for x in data['completada']] #Elmine mayusculas, si quiero sacar tildes es con unidecode.unidecode()
 data['correccion']  = [re.sub(simbolosElim, '', x) for x in data['correccion']]
 
 respuestas = pd.DataFrame(data.groupby(['PalOrac', 'original'])['correccion'].value_counts()) #Tengo la palabra original, la completada y cuantas veces la completaron
@@ -482,7 +482,45 @@ pred['entropy'] = respuestas.groupby(['PalOrac'])['entropy'].sum()*-1
 logLexical = 'Texts_Data/lexical_analysis.csv'
 lexical_analysis = pd.read_csv(logLexical, encoding='UTF-8')
 lexical_analysis.rename(columns={'token':'palabra'}, inplace=True)
-print(lexical_analysis)
-print(pred)  #ojo que pred no tiene tildes! fijate que onda en loadLogs
-combi_analysis = pd.merge(pred, lexical_analysis, on='palabra')
+# print(lexical_analysis)
+# print(pred)
+
+
+#NADA FUNCIONA PQ LAS COLUMNAS ESTAN ENCODEADAS DIFERENTE EN AMBOS DFS, ARMO UNA SOLUCION BERRETA
+
+frec_array = np.array(lexical_analysis.frec)
+pred['frec'] = np.log10(frec_array)
+print(pred)
+
+
+groupped_frec = pred.groupby('frec').agg({'logit_pred': ['mean', 'count', 'std']}).dropna()
+groupped_frec['error_pred'] = (groupped_frec['logit_pred']['std']) / np.sqrt(groupped_frec['logit_pred']['count'])
+print(groupped_frec)
+
+plt.errorbar(groupped_frec.index + 0.1, groupped_frec['logit_pred']['mean'], yerr=groupped_frec['error_pred'])
+
+
+# ax = sns.scatterplot(x=pred['frec'], y=pred['pred'])
+# ax.set_xlabel("frec")
+# sns.lmplot(x='frec', y='pred', data=pred)
+# plt.show()
+
+ax = sns.scatterplot(x=groupped_frec.index, y=groupped_frec['logit_pred']['mean'])
+ax.set_xlabel("log10frec")
+ax.set_ylabel("logit pred")
+plt.show()
+
+
+# a = pred.index
+# print(a)
+# print(type(a))
+# lexical_analysis.reset_index()
+
+# combi_analysis = pd.concat([lexical_analysis, pred], axis=1)
 # print(combi_analysis)
+# print(combi_analysis)
+# print(type(pred.palabra[3]))
+# print(type(lexical_analysis.palabra[3]))
+# print(pred['palabra'].equals(lexical_analysis['palabra']))
+# pred['equals'] = pred['palabra'].equals(lexical_analysis['palabra'])
+# print(pred)
